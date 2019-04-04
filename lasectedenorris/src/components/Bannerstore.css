@@ -1,0 +1,61 @@
+.banner{
+    /* background-color: #FF4900; */
+    background: repeat url("https://images.unsplash.com/photo-1552257127-151dd9bcc678?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    display: flex;
+    background-size: cover;
+    justify-content: space-evenly;
+    color:white;
+    padding-bottom: 2%;
+    }
+    
+    .pic_of_chuck img{
+    max-width:220px;
+    margin-left: 2%;
+    }
+    
+    .text_ban p{
+     max-width: 85%;
+     margin-left: 5%;
+     margin-bottom: 2%;
+     padding-top: 1%;
+       
+       
+        text-align: justify;
+    }
+    .loremchuck {
+        text-shadow: 3px 3px 3px black;
+    }
+    
+    .button-primary {
+        margin-left: 30vw;
+        border: 2px solid #FFC400;
+        border-radius: 8px;
+        display: inline-block;
+        padding: 7px 30px 6px;
+        color: white;
+        /* font-family: 'Poppins', sans-serif; */
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        font-size: 1.875rem;
+        letter-spacing: 0.1em;
+        line-height: 1;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .dollars {
+        max-height: 7vh;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .banner {
+          display:flex;
+          flex-wrap: wrap;
+          margin: 0 auto;
+          
+        }
+    
+        .button-primary{
+            margin-bottom: 2%;
+        }
+      }
