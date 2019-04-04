@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Trolltinder from './Trolltinder'
 import Bannerstore from './Bannerstore';
 
 

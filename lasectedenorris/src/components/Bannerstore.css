@@ -1,7 +1,8 @@
 .banner{
     /* background-color: #FF4900; */
-    background: repeat url("https://image.noelshack.com/fichiers/2019/14/3/1554305427-wrapper-bg.jpg");
+    background: repeat url("https://images.unsplash.com/photo-1552257127-151dd9bcc678?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
     display: flex;
+    background-size: cover;
     justify-content: space-evenly;
     color:white;
     padding-bottom: 2%;
@@ -21,8 +22,12 @@
        
         text-align: justify;
     }
+    .loremchuck {
+        text-shadow: 3px 3px 3px black;
+    }
     
     .button-primary {
+        margin-left: 30vw;
         border: 2px solid #FFC400;
         border-radius: 8px;
         display: inline-block;
@@ -37,6 +42,9 @@
         line-height: 1;
         text-decoration: none;
         text-transform: uppercase;
+    }
+    .dollars {
+        max-height: 7vh;
     }
     
     @media screen and (max-width: 768px) {
