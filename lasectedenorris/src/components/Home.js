@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Trolltinder from './Trolltinder'
+import Bannerstore from './Bannerstore';
+
 
 class Primary extends Component {
   render() {
@@ -53,6 +56,7 @@ class Primary extends Component {
 
           <div>
             <h1>Shop</h1>
+            <Bannerstore />
           </div>
           <br />
           <br />
