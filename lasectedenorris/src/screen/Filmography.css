@@ -1,19 +1,35 @@
+.body_film{
+    
+    background-image: url("https://image.noelshack.com/fichiers/2019/16/4/1555575708-chuck-movie2.png")  ;
+    background-image: cover;
+    background-image: 100%;
+    background: rgba(131, 127, 127, 0.8)
+    
+}
 
+.chuck_movie{
+    padding-top: 2%;
+}
 
 .chuck_movie img{
     width:150px;
     border-radius:5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .chuck_movie table{
     
     display: block;
-    color: black;
+    color:black;
     padding-left: 16px;
     width:90%;
     margin:0 auto;
-    margin:2%;
+    /* margin:2%; */
     
+}
+
+.chuck_movie tr{
+    width:100%;
 }
 
 .film{
@@ -31,6 +47,7 @@
     background-color: lightgrey;
     border-radius: 12px;
     margin-bottom: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -52,3 +69,6 @@
     width:100%;
 }
 
+tr{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
