@@ -1,0 +1,36 @@
+footer {
+    border: solid 1px black;
+    height: 5%;
+    background-color: black;
+}
+
+
+.foot-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5%;
+
+}
+
+.li-foot {
+    list-style-type: none;
+    line-height: 40px;
+    color: white;
+}
+
+footer p {
+    font-style: italic;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+.foot-content a {
+    text-decoration: none
+}
+
+.icon-footer {
+    width: 4vw;
+    margin-left: 5px;
+
+}

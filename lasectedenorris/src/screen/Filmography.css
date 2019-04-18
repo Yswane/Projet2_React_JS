@@ -1,0 +1,54 @@
+
+
+.chuck_movie img{
+    width:150px;
+    border-radius:5%;
+}
+
+.chuck_movie table{
+    
+    display: block;
+    color: black;
+    padding-left: 16px;
+    width:90%;
+    margin:0 auto;
+    margin:2%;
+    
+}
+
+.film{
+    width:8px;
+} 
+
+.chuck_movie input{
+    font-size: 24px;
+    display: block;
+    width:90%;
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    background-color: lightgrey;
+    border-radius: 12px;
+    margin-bottom: 1%;
+}
+
+
+.film1 img{
+    width:120px;
+}
+
+.film1 input{
+    width:15%;
+    margin:0 auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 15px;
+    font-weight:bold;
+    display: block;
+}
+
+.info_chuck{
+    width:100%;
+}
+

@@ -1,0 +1,68 @@
+.bodyChuckpage{
+    background: #e2af74;
+}
+
+
+.sectionGrid{
+    background:#e2af74;
+
+}
+
+.separation1{
+    width: 100%;
+    height: 50px;
+    background: #db9d56;;
+    top: 53%;
+    position: absolute;
+    left: 0;
+    transform: rotate(-1.25deg);
+    z-index: 5;
+    box-shadow: 0 10px 15px -5px rgba(0,0,0,.8);
+}
+.separation2{
+    width: 100%;
+    height: 50px;
+    background: #db9d56;
+    top: 152%;
+    position: absolute;
+    left: 0;
+    transform: rotate(-1.25deg);
+    z-index: 5;
+    box-shadow: 0 10px 15px -5px rgba(0,0,0,.8);
+}
+
+.button-primary2{
+    background: #db9d56;
+    border: 4px solid white;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 7px 30px 6px;
+    color: black;
+    /* font-family: 'Poppins', sans-serif; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    font-size: 1.875rem;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    align-items: center;
+    margin-bottom: 3%;
+} 
+
+.button_movie{
+    width:100%;
+    text-align: center;
+}
+
+.button_movie a {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    .button-primary2{
+        margin-bottom: 2%;
+    }
+  }

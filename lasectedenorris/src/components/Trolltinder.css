@@ -1,0 +1,38 @@
+.background_tinder {
+    max-height: 110vh;
+    background-color: black;
+}
+
+.socials_media {
+    padding-top: 3%;
+    min-height: 30vh;
+    background-color: black;
+}
+.square {
+    border : solid 2px black;
+
+}
+.Fuck_it {
+    color: yellow;
+    font-size: 2em;
+    margin-left: 10vw;
+}
+.Move {
+    color: yellow;
+    font-size: 2em;
+    margin-left: 35vw;
+}
+.gif_troll_tinder {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+}
+.chuck_kick {
+    max-height: 65vh;
+    padding-right: 3%;
+}
+.tinder_norris {
+    color: white;
+    font-size: 1.2em;
+    padding-left: 1%;
+}

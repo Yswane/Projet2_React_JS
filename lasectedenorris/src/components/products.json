@@ -1,0 +1,45 @@
+[
+	{
+	"id": 1,
+	"productName": "Cheveux de Chuck",
+	"image": "https://media.gettyimages.com/photos/chuck-norris-picture-id525603494?s=612x612",
+	"descriptif": "Le terme 'rouste' vient de la couleur de cheveux de Chuck Norris .",
+	"link": ""
+	
+	},
+	{
+	"id": 2,
+	"productName": "Sueur de Chuck Norris",
+	"image": "https://s3.amazonaws.com/mf-cforce/assets/uploads/2017/07/19194927/img2.png",
+	"descriptif": "Il n’y a pas d’autre façon de décrire la sueur de Chuck qui dégouline avec une telle clarté et douceur. Embouteillé à la source après le combat contre Bruce Lee, nous n’ajoutons rien et n’enlevons rien. C'est la sueur de l'immortalité...",
+	"link": "https://www.cforce.com/"
+	},
+	{
+	"id": 3,
+	"productName": "Chuck masque",
+	"image": "https://vendugeek.com/2259-large_default/casquette-barbe-chuck-norris.jpg",
+	"descriptif": " Pour rentrer dans la peau de Chuck Norris et séduire la boulangère de ton quartier. ",
+	"link": "https://vendugeek.com/fashion-geek/679-casquette-barbe-chuck-norris.html"
+	},
+	{
+	"id":4,
+	"productName": "Cube imprimeur de blagues",
+	"image": "http://www.yoctopuce.com/pubarchive/2016-02/mgic_cube_complete_1.jpg",
+	"descriptif": "Vous en avez rêver , ils l'ont conçu ! Un cube qui imprime des blagues de Chuck Norris pour faire rire les plus nerds d'entre vous.",
+	"link": "http://www.yoctopuce.com/FR/article/un-distributeur-de-blagues-chuck-norris"
+	},
+	{
+	"id":5,
+	"productName": "Slip de Chuck",
+	"image": "http://3.bp.blogspot.com/-q1F_3NVzBmA/UGrlOeDZDYI/AAAAAAAABAg/_vgX4gMSHzI/s1600/slip-zlatan-chuck-norris.jpg",
+	"descriptif": "Pour faire rêver ta femelle, combiné à la coupe mulet on t'assures un effet ravageur.",
+	"link": ""
+	},
+	{
+	"id":6,
+	"productName": "Figurine anti-stress Chuck",
+	"image": "https://www.closeupshop.fr/media/oart_0/oart_c/oart_86211/thumbs/870012_2344195.jpg",
+	"descriptif":" Quand Chuck Norris passe le permis de conduire, c'est l'examinateur qui stresse.",
+	"link": "https://www.closeupshop.fr/acheter/figurine-anti-stress-chuck-norris-squeezie-tough-guy-86211"
+	}
+]

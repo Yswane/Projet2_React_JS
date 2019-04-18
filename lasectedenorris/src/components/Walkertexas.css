@@ -1,0 +1,10 @@
+.background_video_walker {
+    width: 40%;
+    margin: 0 auto;
+    
+}
+.video_walker {
+    max-width:680px;
+    min-height:400px;
+
+}

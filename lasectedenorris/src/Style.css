@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'RioGrande';
+    font-style: "normal";
+    font-weight: 900;
+    src: url(./fonts/RioGrande.ttf);
+}
+
+@font-face {
+    font-family: 'RioGrande2';
+    font-style: "normal";
+    font-weight: 900;
+    src: url(./fonts/RioGrande2.ttf);
+}
+
+@font-face {
+    font-family: 'Western';
+    font-style: "normal";
+    font-weight: 400;
+    src: url(./fonts/Western.TTF);
+}
