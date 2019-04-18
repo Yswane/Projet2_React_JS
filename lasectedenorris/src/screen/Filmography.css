@@ -1,9 +1,9 @@
 .body_film{
     
-    background-image: url("https://image.noelshack.com/fichiers/2019/16/4/1555575708-chuck-movie2.png")  ;
+    background-image: url("https://image.noelshack.com/fichiers/2019/16/4/1555588937-blaze-burn-burning-97492.jpg")  ;
     background-image: cover;
     background-image: 100%;
-    background: rgba(131, 127, 127, 0.8)
+    background: #E2AF74; 
     
 }
 
@@ -19,11 +19,12 @@
 
 .chuck_movie table{
     
-    display: block;
+    /* display: block; */
     color:black;
     padding-left: 16px;
     width:90%;
     margin:0 auto;
+    
     /* margin:2%; */
     
 }
@@ -33,7 +34,7 @@
 }
 
 .film{
-    width:8px;
+    padding-right:8px;
 } 
 
 .chuck_movie input{
@@ -69,6 +70,10 @@
     width:100%;
 }
 
-tr{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.tab_movie{
+   margin: 0 auto;
+}
+
+.film1{
+    width:100%;
 }
