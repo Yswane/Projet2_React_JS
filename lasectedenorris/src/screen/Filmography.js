@@ -74,6 +74,7 @@ class Filmography extends Component {
 
         <body>
             <div className="body_film">
+
               <div className="chuck_movie">
                 <table>
                   <tbody>

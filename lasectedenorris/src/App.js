@@ -8,11 +8,11 @@ import Chuck from './screen/Chuck';
 import Home from './screen/Home';
 import Shop from './screen/Shop';
 import Game from './screen/Game';
-import Filmography from './screen/Filmography';
+// import Filmography from './screen/Filmography';
 
 import ChuckBar from "./components/ChuckBar"
 import Footer from "./components/Footer"
-
+import Film from "./screen/Film"
 import sound from './sound/Sound-P90.mp3'
 
 class App extends Component {
@@ -33,6 +33,7 @@ class App extends Component {
   <header id="haut">
     <ChuckBar gunSound={this.play} />
   </header>
+  <Film />
 
         <Switch>
           {/* <Route exact="/" component={VideoHome} /> */}
@@ -40,7 +41,7 @@ class App extends Component {
           <Route path="/shop" component={Shop}/>
           <Route path="/chuck" component={Chuck}/>
           <Route path="/game" component={Game}/>
-          <Route path="/filmography" component={Filmography}/>
+          <Route path="/filmography" component={Film}/>
       </Switch>
 <footer id="bas">
 <Footer />    
