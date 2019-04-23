@@ -7,7 +7,7 @@ class Basegame extends Component {
     render(){
         return(
             <div>
-                <div className="container">
+                <div className="container-quizz">
                     <div className="box-question">
                         <h1> Chuck Challenge </h1>
 
