@@ -1,6 +1,8 @@
 import React from 'react'
 import Searcharea from '../components/Searcharea'
 import MovieList from '../components/MovieList'
+import Button_Chuck_Top from '../components/Button_Chuck_Top';
+
 import './Filmchuck.css'
 
 
@@ -53,6 +55,10 @@ handleChange = (e) => {
             <Searcharea handleSubmit={this.handleSubmit} handleChange={this.handleChange}/>
             <MovieList movies={this.state.movies}/>
             </div>
+            <div>
+                  <Button_Chuck_Top />
+            </div>
+
         
         </body> 
     
