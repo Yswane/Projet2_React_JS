@@ -13,7 +13,7 @@ const Button_Chuck_Top = () => {
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         window.onscroll = function (ev) {
-          document.getElementById("cRetour").className= (window.pageYOffset > 100) ? "cVisible" : "cInvisible";
+          document.getElementById("cRetour").className = (window.pageYOffset > 100) ? "cVisible" : "cInvisible";
         }
       });
 </script>

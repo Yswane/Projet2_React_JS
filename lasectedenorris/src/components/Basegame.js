@@ -1,30 +1,33 @@
 import React, {Component} from 'react';
+import {BrowserRouter,Switch, NavLink} from 'react-router-dom'
+
+import './BaseGame.css'
 
 class Basegame extends Component {
+    render(){
+        return(
+            <div>
+                <div className="container">
+                    <div className="box-question">
+                        <h1> Chuck Challenge </h1>
 
-render ()
+                        <p>Bienvenue sur le challenge le plus dur de votre vie. Tentez de survivre à l'aventure, sachez que chaque choix sera d'une importance capitale pour la suite de l'histoire. Profitez de l'experience à fin alternative. </p>
 
-{
-    return (
+                        <img src="https://s3.amazonaws.com/mf-cnorris/assets/uploads/2016/10/19123509/timeline-05.jpg" alt="chuck accueil" />
 
+                        <p className="question-quizz">Etes Vous Pret ?</p>
+                    </div>
 
-        <> <div>        const Question1 = ' Bienvenue, êtes vous prets ?';
-    const reponse1a= 'oui'
-    const reponse1b= 'je m'excuse d'être ici, je me suis trompé d'endroit'
-    const reponse1c= 
-    const Question2a = 'Chuck Norris est en face de toi , il te sourit, que fais-tu ?'
+                    <div className ="box-button">
+                        <NavLink exact to="/id1" className="button-quizz">  Oui</NavLink>
+                        <NavLink exact to="/id1" className="button-quizz"> Je me suis trompé d'endroit, je m'excuse</NavLink>
+                        <NavLink exact to="/id1" className="button-quizz"> Surprise</NavLink>
+                    </div>
+               </div>
+            </div>
+        )
+    }
 
-
-
-
-    
-    </div>
-        
-        </>
-
-    )
 }
 
-}
-
-export default Basegame
+export default Basegame;

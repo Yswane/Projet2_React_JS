@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Home.css'
 import './Game.css'
-
+import Basegame from '../components/Basegame'
 
 class Game extends Component {
     render() {
@@ -11,7 +11,7 @@ class Game extends Component {
 
                 <body>
                     
-                   
+                   <Basegame />
                 </body>
             </>
         );
