@@ -5,7 +5,10 @@
 
 .sectionGrid{
     background:#e2af74;
-
+    margin-top:10%;
+}
+.sectionCounterfact{
+    margin-top: 6%;
 }
 
 .separation1{
@@ -19,6 +22,7 @@
     z-index: 5;
     box-shadow: 0 10px 15px -5px rgba(0,0,0,.8);
 }
+
 .separation2{
     width: 100%;
     height: 50px;
@@ -29,6 +33,24 @@
     transform: rotate(-1.25deg);
     z-index: 5;
     box-shadow: 0 10px 15px -5px rgba(0,0,0,.8);
+}
+.separation3{
+    width: 100%;
+    height: 50px;
+    background: #db9d56;
+    top: 267%;
+    position: absolute;
+    left: 0;
+    transform: rotate(-1.25deg);
+    z-index: 5;
+    box-shadow: 0 10px 15px -5px rgba(0,0,0,.8);
+}
+
+.Counterfact-title{
+    font-size: 50px;
+    font-weight:bold;
+    font-style: italic;
+    color: white;
 }
 
 .button-primary2{
