@@ -30,7 +30,8 @@ class Footer extends Component{
             </ul>
         </div>
 
-        <p>Tout droits reservés à Gérard Lasalle</p>
+        <p>Tout droits reservés à Gérard Lasalle <br/>  <a href="https://fightweb.files.wordpress.com/2008/06/chuck-norris-no.gif?w=640"> Merci Chuck et Michel </a> </p>
+        
 
     </footer>
         )
