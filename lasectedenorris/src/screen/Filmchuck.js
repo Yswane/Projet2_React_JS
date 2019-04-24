@@ -1,7 +1,7 @@
 import React from 'react'
 import Searcharea from '../components/Searcharea'
 import MovieList from '../components/MovieList'
-import Button_Chuck_Top from '../components/Button_Chuck_Top';
+import ButtonChuckTop from '../components/ButtonChuckTop';
 
 import './Filmchuck.css'
 
@@ -56,7 +56,7 @@ handleChange = (e) => {
             <MovieList movies={this.state.movies}/>
             </div>
             <div>
-                  <Button_Chuck_Top />
+                  <ButtonChuckTop />
             </div>
 
         

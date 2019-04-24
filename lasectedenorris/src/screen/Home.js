@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import './Home.css';
 import Bannerstore from '../components/Bannerstore';
-import ButtonChuckTop from '../components/Button_Chuck_Top';
+import ButtonChuckTop from '../components/ButtonChuckTop';
 import Chuckbanner from '../components/Chuckbanner';
 import Bannergame from '../components/Banniergame';
 import Walkertexas from '../components/Walkertexas';
