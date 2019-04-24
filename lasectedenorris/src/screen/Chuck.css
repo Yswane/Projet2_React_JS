@@ -1,10 +1,11 @@
 .bodyChuckpage{
-    background: #e2af74;
+    background: #a1663f;
 }
 
 
 .sectionGrid{
-    background:#e2af74;
+    /* background:#e2af74; */
+    background: #a1663f;
     margin-top:10%;
 }
 .sectionCounterfact{
@@ -47,7 +48,6 @@
 }
 
 .Counterfact-title{
-    margin-left: 1.5%;
     font-size: 50px;
     font-weight:bold;
     font-style: italic;
