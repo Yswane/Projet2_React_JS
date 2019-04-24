@@ -8,14 +8,14 @@ const Button = (props) => {
             <div className="row">
                     <div className="col-sm-6">
                         <div className="ih-item circle effect2 left_to_right">
-                        <li  onClick={props.handleChangeProduct}> 
+                        <a  href="#" onClick={props.handleChangeProduct}> 
                         <div className="img">
                         <img src={props.article.image} alt="img" />
                         </div>
                         <div className="info">                            
                             <h3 >{props.article.productName} </h3>
                         </div>
-                        </li>
+                        </a>
                         </div>
                     </div>
                 </div>        
