@@ -8,6 +8,7 @@ const Chuckcarousel = ({ picture, picture1, picture2, picture3 }) => {
       <img src={picture1} alt={picture} />
       <img src={picture2} alt={picture} />
       <img src={picture3} alt={picture} />
+     
     </figure>
   </div>
 
