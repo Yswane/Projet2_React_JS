@@ -69,7 +69,7 @@ class Counter extends Component{
     render() {
 
         // On définit les éléments "upIcon(like) et downIcon(dislike)"
-        // on utilise ici Font-Answome (on inclura le fichier css dans ./public.index.html)
+
         let upIcon      = <img src="https://cdn.designcrowd.com/blog/2016/March/icons-vs-logos/FBLike-Icon_300_v2.png" alt="" aria-hidden="true" className='Up'></img>
         let downIcon    = <img src="https://publicdomainphotography.com/assets/cache/idOTU1NTQzZWZlOWNmZWYw-5d562b13e55b1d48b9afb5f33e03be09.jpg" alt="" aria-hidden="true" className='Down'></img>
 
@@ -92,8 +92,8 @@ class Counter extends Component{
         </div>    
         <div className='factLikeDislike' >
      {/* Au clic sur le bouton on appelle la fonction */}
-        <button onClick={this.like}>{ upIcon } </button> <span>{ this.state.likeCounter }</span>
-        <button onClick={this.dislike}>{ downIcon }</button> <span>{ this.state.dislikeCounter }</span>
+        <button className='counterbutton' onClick={this.like}>{ upIcon } </button> <span>{ this.state.likeCounter }</span>
+        <button className='counterbutton' onClick={this.dislike}>{ downIcon }</button> <span>{ this.state.dislikeCounter }</span>
         </div>
     </div>
 </div>

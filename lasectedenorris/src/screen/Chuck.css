@@ -13,9 +13,9 @@
 
 .separation1{
     width: 100%;
-    height: 50px;
+    height: 5%;
     background: #db9d56;;
-    top: 53%;
+    margin-top: -2%;
     position: absolute;
     left: 0;
     transform: rotate(-1.25deg);
@@ -25,9 +25,9 @@
 
 .separation2{
     width: 100%;
-    height: 50px;
+    height: 5%;
     background: #db9d56;
-    top: 152%;
+    margin-top: -8%;
     position: absolute;
     left: 0;
     transform: rotate(-1.25deg);
@@ -36,9 +36,9 @@
 }
 .separation3{
     width: 100%;
-    height: 50px;
+    height: 5%;
     background: #db9d56;
-    top: 267%;
+    margin-top: -9%;
     position: absolute;
     left: 0;
     transform: rotate(-1.25deg);
@@ -47,6 +47,7 @@
 }
 
 .Counterfact-title{
+    margin-left: 1.5%;
     font-size: 50px;
     font-weight:bold;
     font-style: italic;
