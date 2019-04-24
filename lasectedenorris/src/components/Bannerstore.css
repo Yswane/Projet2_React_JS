@@ -34,8 +34,11 @@
     align-items: center;
      border: 2px solid #FFC400;
     border-radius: 8px;
-    display: inline-block;
-    padding: 7px 30px 6px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    width: 42%;
+    margin: auto;
     color: white;
     font-style: normal;
     font-weight: 700;
