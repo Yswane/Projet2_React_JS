@@ -1,6 +1,6 @@
 .contenair-global {
     padding-top: 2%;
-    height: 75vh;
+    /* height: 75vh; */
     background: url('https://szftlgs.com/wp-content/uploads/data/2018/1/6/free-monument-valley-wallpaper-hd-wallpapers-PIC-WSW1057501.jpg');
     
     
@@ -26,7 +26,7 @@
     width: 30%;
     /* background: yellow; */
     margin-left: 3%;
-    padding-top: 10vh;
+    padding-top: 5vh;
     
     
 }
@@ -85,8 +85,6 @@
 
 
 
-
-
 .contenair-text-product {
     display: flex;
     flex-direction: column;
@@ -97,8 +95,9 @@
 
 
 .ButtonProduct {
+    display: block;
     margin-left: 70%;
-
+    /* background-color: aquamarine; */
 }
 
 

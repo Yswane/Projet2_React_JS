@@ -3,7 +3,7 @@ import './Chuck.css'
 import Gridchuck from '../components/Gridchuck';
 import Counter from '../components/counterfact';
 import Countertable from '../components/Countertable.json';
-import Button_Chuck_Top from '../components/Button_Chuck_Top';
+import ButtonChuckTop from '../components/ButtonChuckTop';
 import {Link} from 'react-router-dom';
 import '../components/Chuckcarousel.css';
 import ApiQuotesChuck from './ApiQuotesChuck';
@@ -46,7 +46,7 @@ class Chuck extends Component {
 
                     <section className="sectionfooterbottom">
                         <div>
-                        <Button_Chuck_Top />
+                        <ButtonChuckTop />
                         </div>
                     </section>
                
