@@ -8,7 +8,7 @@ const Button = (props) => {
             <div className="row">
                     <div className="col-sm-6">
                         <div className="ih-item circle effect2 left_to_right">
-                        <a  href="#" onClick={props.handleChangeProduct}> 
+                        <a href="javascript:void" onClick={props.handleChangeProduct}> 
                         <div className="img">
                         <img src={props.article.image} alt="img" />
                         </div>
