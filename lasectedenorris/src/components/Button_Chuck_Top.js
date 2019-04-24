@@ -1,5 +1,4 @@
 import React from "react"
-import sound from '../sound/Sound-P90.mp3'
 
 import "./Button_Chuck_Top.css"
 
