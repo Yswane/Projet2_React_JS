@@ -10,14 +10,14 @@ const Button = (props) => {
             <div className="row">
                     <div className="col-sm-6">
                         <div className="ih-item circle effect2 left_to_right">
-                        <a  onClick={props.handleChangeProduct}>
+                        <li  onClick={props.handleChangeProduct}> 
                         <div className="img">
                         <img src={props.article.image} alt="img" />
                         </div>
                         <div className="info">                            
                             <h3 >{props.article.productName} </h3>
                         </div>
-                        </a>
+                        </li>
                         </div>
                     </div>
                 </div>
