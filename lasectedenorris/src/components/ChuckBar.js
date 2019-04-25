@@ -7,8 +7,10 @@ import { NavLink } from 'react-router-dom';
 class ChuckBar extends Component {
   render() {
     return (
-      <div>
+    <div>
+        
         <header className="NavBarStart haut">
+          <div className="bg-faded">
           <div className="Image-logo"><img src="https://s100.iracing.com/wp-content/uploads/2016/08/sticker375x360.u2.png" alt="logo de chuck"></img></div>
           <div className="main-nav-container">
             <ul className="Main-nav">
@@ -19,8 +21,9 @@ class ChuckBar extends Component {
               <li><a href="./src/screen/Game.js" onClick={this.props.gunSound}><NavLink exact to="/Game"> Jeu quizz </NavLink></a></li>
             </ul>
           </div>
+          </div>
         </header>
-      </div>
+    </div>
     )
   }
 }

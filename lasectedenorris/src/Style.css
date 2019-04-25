@@ -18,3 +18,28 @@
     font-weight: 400;
     src: url(./fonts/Western.TTF);
 }
+
+@font-face {
+    font-family: 'Bener';
+    font-style: "Regular";
+    font-weight: 900;
+    src: url(./fonts/BERNIERShade-Regular.ttf);
+}
+@font-face {
+    font-family: 'WesternV2';
+    font-style: "Regular";
+    font-weight: 900;
+    src: url(./fonts/OldWestern.otf);
+}
+@font-face {
+    font-family: 'Kaushan';
+    font-style: "Regular";
+    font-weight: 900;
+    src: url(./fonts/kaushan-script.regular.ttf);
+}
+@font-face {
+    font-family: 'OldWestern';
+    font-style: "Regular";
+    font-weight: 900;
+    src: url(./fonts/OldWestern.otf);
+}
