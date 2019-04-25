@@ -16,9 +16,7 @@ import ButtonChuckTop from '../components/ButtonChuckTop';
 
 
 class Shop extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
+    state = {
             buttonHover: products[0],
             buttonHover2: products[1],
             buttonHover3: products[2],
@@ -27,7 +25,7 @@ class Shop extends Component {
             buttonHover6: products[5],
             products: products[0]
         }
-    }
+    
     
 
     changeProduct = () => {
