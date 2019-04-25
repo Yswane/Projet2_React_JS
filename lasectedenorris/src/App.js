@@ -9,11 +9,13 @@ import Home from './screen/Home';
 import Shop from './screen/Shop';
 import Game from './screen/Game';
 // import Filmography from './screen/Filmography';
+import Button_Chuck_Top from './components/ButtonChuckTop';
 
 import ChuckBar from "./components/ChuckBar"
 import Footer from "./components/Footer"
 import Filmchuck from "./screen/Filmchuck"
 import sound from './sound/Sound-P90.mp3'
+import Popo from './components/Popo';
 
 class App extends Component {
 
@@ -32,9 +34,10 @@ class App extends Component {
     return (
       <div>
   <header id="haut">
+  <Button_Chuck_Top />
     <ChuckBar gunSound={this.play} />
   </header>
-  
+      <Popo />
 
         <Switch>
           {/* <Route exact="/" component={VideoHome} /> */}
