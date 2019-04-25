@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import {BrowserRouter,Switch, NavLink} from 'react-router-dom'
+import ButtonChuckTop from '../components/ButtonChuckTop';
+
 
 import './BaseGame.css'
 
@@ -24,6 +26,7 @@ class Basegame extends Component {
                         <NavLink exact to="/id1" className="button-quizz"> Surprise</NavLink>
                     </div>
                </div>
+               <ButtonChuckTop/>
             </div>
         )
     }

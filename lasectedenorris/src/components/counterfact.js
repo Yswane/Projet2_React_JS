@@ -70,16 +70,16 @@ class Counter extends Component{
 
         // On définit les éléments "upIcon(like) et downIcon(dislike)"
         // on utilise ici Font-Answome (on inclura le fichier css dans ./public.index.html)
-        let upIcon      = <img src="https://cdn.designcrowd.com/blog/2016/March/icons-vs-logos/FBLike-Icon_300_v2.png" aria-hidden="true" className='Up'></img>
-        let downIcon    = <img src="https://publicdomainphotography.com/assets/cache/idOTU1NTQzZWZlOWNmZWYw-5d562b13e55b1d48b9afb5f33e03be09.jpg" aria-hidden="true" className='Down'></img>
+        let upIcon      = <img src="https://cdn.designcrowd.com/blog/2016/March/icons-vs-logos/FBLike-Icon_300_v2.png" alt="" aria-hidden="true" className='Up'></img>
+        let downIcon    = <img src="https://publicdomainphotography.com/assets/cache/idOTU1NTQzZWZlOWNmZWYw-5d562b13e55b1d48b9afb5f33e03be09.jpg" alt="" aria-hidden="true" className='Down'></img>
 
         // Si l'on n'a pas encore "liké"
         if(!this.state.isLiked)
-            upIcon = <img src="https://cdn.designcrowd.com/blog/2016/March/icons-vs-logos/FBLike-Icon_300_v2.png" aria-hidden="true" className='Up'></img>
+            upIcon = <img src="https://cdn.designcrowd.com/blog/2016/March/icons-vs-logos/FBLike-Icon_300_v2.png" alt="" aria-hidden="true" className='Up'></img>
 
         // Si l'on a pas encore "disliké"
         if(!this.state.isDisliked)
-            downIcon = <img src="https://publicdomainphotography.com/assets/cache/idOTU1NTQzZWZlOWNmZWYw-5d562b13e55b1d48b9afb5f33e03be09.jpg" aria-hidden="true" className='Down'></img>
+            downIcon = <img src="https://publicdomainphotography.com/assets/cache/idOTU1NTQzZWZlOWNmZWYw-5d562b13e55b1d48b9afb5f33e03be09.jpg" alt="" aria-hidden="true" className='Down'></img>
 
 
     return ( <>

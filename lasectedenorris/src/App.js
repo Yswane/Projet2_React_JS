@@ -24,7 +24,8 @@ class App extends Component {
       play = () => {
         this.setState({ play: this.state.play });
         console.log(this.audio);
-        this.state.play = this.audio.play();
+        
+        this.setState({ play: this.audio.play() });
       }
 
   render() {

@@ -10,8 +10,8 @@ class Banniergame extends Component {
     
     <div className="banner-game">
               <div className="home-game-banner-bg">
-              <img src="https://image.noelshack.com/fichiers/2019/14/3/1554305698-smallbonhome.png" className="Chuck-small-fellow" />
-              <img src="https://image.noelshack.com/fichiers/2019/14/4/1554338155-chuckchallenge.png" className="Title-banner-game" />
+              <img src="https://image.noelshack.com/fichiers/2019/14/3/1554305698-smallbonhome.png" alt="" className="Chuck-small-fellow" />
+              <img src="https://image.noelshack.com/fichiers/2019/14/4/1554338155-chuckchallenge.png" alt="" className="Title-banner-game" />
               <span className="home-game-banner-span">Viens affronter Chuck Norris! <br/>Et tente de gagner ...</span>
               </div>
               <div className="banner-game-hover">

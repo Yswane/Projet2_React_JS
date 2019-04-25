@@ -10,7 +10,7 @@ import products from '../components/products.json'
 import Button from '../components/ButtonShop';
 import ProductContents from '../components/ProductContents';
 import ImageShop from '../components/ImageShop';
-import Button_Chuck_Top from '../components/Button_Chuck_Top';
+import ButtonChuckTop from '../components/ButtonChuckTop';
 
 
 
@@ -74,7 +74,7 @@ class Shop extends Component {
 
                 <ProductContents article={this.state.products}/>
 
-                <Button_Chuck_Top />
+                <ButtonChuckTop />
             </div>
             </>
         )
