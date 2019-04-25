@@ -22,7 +22,7 @@
         "image":"",
         "rep1" : { "id": 9, "text": "Tu lui demandes un intégrale de Walker texas rangers, tu retrouveras ton chemin plus tard."},
         "rep2" : {"id": 12 , "text": "Pour qui il se prend ce con ?! Tu lui proposes de boire un café dans lequel tu as mis de l'acide. "},
-        "rep3" : {"id": , "text": "Chuck Norris t'emènnes quelques part et tu décides de lui faire confiance."}
+        "rep3" : {"id": 13, "text": "Chuck Norris t'emènnes quelques part et tu décides de lui faire confiance."}
     },
     {
         "id": 4,
@@ -37,18 +37,18 @@
         "Quest":"Bien Joué cette feinte fonctionne, Chuck te prodigues les premier soins de secours et veut se lier d'amitié avec toi.Il te propose d'aller boire un verre",
         "image":"",
         "rep1" : { "id":6, "text": "Accepter"},
-        "rep2" : {"id":27, "text": "Refuser"},
+        "rep2" : {"id":27, "text": "Refuser"}
     },
     {
         "id": 6,
-        "Quest":"Question 5A: Apres une soiree plus qu'arrosé dans un bar local Chuck ne tenant pas l'alcool s'effrondre une chance inouie se presente a toi",
+        "Quest":"Apres une soiree plus qu'arrosé dans un bar local Chuck ne tenant pas l'alcool s'effrondre une chance inouie se presente a toi",
         "image":"http://www.espace-loisirs.com/wp-content/uploads/2016/09/chuck-norris-hoegaarden-732x380.jpg",
         "rep1" : { "id": 7, "text": "Tu lui dessines des bites sur le front"},
         "rep2": {"id":26, "text":"Tu tentes de l'étrangler"}
     },
     {
         "id": 7,
-        "Quest":"Question 6A: Au réveil Chuck va se brosser les dents et se voit dans le mirroir; Il te demande qui est le responsable de ça ? ",
+        "Quest":"Au réveil Chuck va se brosser les dents et se voit dans le mirroir; Il te demande qui est le responsable de ça ? ",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMedV0b6nGk9-S7CD0rHlVMaEB8hALUFcvTWXu5c2HkHoNPZ2X",
         "rep1" : { "id": 25, "text": "Tu mens et accuses le patron du bar."},
         "rep2" : {"id": 33, "text": "Tu assumes ton geste, ça te fait bien rire et espère que Chuck ne vas pas te tuer sur le champs"}
@@ -98,51 +98,26 @@
     },
     {
         "id": 14,
-        "Quest":"Tu decide de t'enfuire mais il  n'y a aucun echapatoire la seul solution est de l'affronter .Par chance tu tombes sur armurerie.Quel armes choisis tu ?",
+        "Quest":"Tu decides de t'enfuire mais il  n'y a aucune échapatoire la seule solution est de l'affronter .Par chance tu tombes sur armurerie.Quel armes choisis tu ?",
         "image":"http://www.armurerie-guerin.com/Theme/GuerinTheme/assets/img/photos/armurerie_01.jpg",
-        "rep1" : { "id": , "text": ""},
-        "rep2" : {"id": , "text": ""},
-        "rep3" : {"id": , "text": ""}
-    },
-    {
-        "id": 15,
-        "Quest":"",
-        "image":"",
-        "rep1" : { "id": , "text": ""},
-        "rep2" : {"id": , "text": ""},
-        "rep3" : {"id": , "text": ""}
-    },
-    {
-        "id": 16,
-        "Quest":"",
-        "image":"",
-        "rep1" : { "id": , "text": ""},
-        "rep2" : {"id": , "text": ""},
-        "rep3" : {"id": , "text": ""}
+        "rep1" : { "id": 17, "text": "Une grenade"},
+        "rep2" : {"id": 18 , "text": "un desert eagles"},
+        "rep3" : {"id": 19, "text": "une banane"}
     },
     {
         "id": 17,
-        "Quest":"",
-        "image":"",
-        "rep1" : { "id": , "text": ""},
-        "rep2" : {"id": , "text": ""},
-        "rep3" : {"id": , "text": ""}
+        "Dead":"RIP :  Chuck debarque dans l'armurie , tu le repousses. Vous tombez et tu remarques qu'il a dégoupiller ta grenade dans sa chute. Tu exploses seul comm un con. ",
+        "image":"https://media.giphy.com/media/GboWaubMldbtC/giphy.gif"
     },
     {
         "id": 18,
-        "Quest":"",
-        "image":"",
-        "rep1" : { "id": , "text": ""},
-        "rep2" : {"id": , "text": ""},
-        "rep3" : {"id": , "text": ""}
+        "Dead":"RIP tu lui tires dessus de nombreuses fois mais la peau de Chuck est dur comme du fer et rien ne le blesse. Quand il te reste une seule balle tu décides de te suicider !",
+        "image":" https://previews.123rf.com/images/marcoprati/marcoprati1308/marcoprati130800013/21706593-man-pointing-a-gun-to-his-head.jpg"
     },
     {
         "id": 19,
-        "Quest":"",
-        "image":"",
-        "rep1" : { "id": , "text": ""},
-        "rep2" : {"id": , "text": ""},
-        "rep3" : {"id": , "text": ""}
+        "Win":"Tu lui offres ta banane. Chuck norris est émue aux larmes, il vient de retrouver son artefact magique, sa banane fétiche. Il s'en va sa banane dans la poche arrière sur un coucher de soleil/ Il se souviendra de toi pour toujours.",
+        "image":"https://media.giphy.com/media/3hvmlYNsOTFWE/giphy.gif"
     },
     {
         "id": 20,
@@ -167,7 +142,7 @@
     {
         "id": 24,
         "Dead":"Rip chuck n'a pas resister a ton sex apeal il t'as violé et tu decède suite a cette agression sauvage ",
-        "image":"https://pro2-bar-s3-cdn-cf5.myportfolio.com/5e47ea704a3d0631ee2351aa7cbb3d33/65542d73-352e-4fc6-98f5-dc04940d0aba_rw_1920.jpg?h=f991ce4ac3f866b97f7c27d977edd839",
+        "image":"https://pro2-bar-s3-cdn-cf5.myportfolio.com/5e47ea704a3d0631ee2351aa7cbb3d33/65542d73-352e-4fc6-98f5-dc04940d0aba_rw_1920.jpg?h=f991ce4ac3f866b97f7c27d977edd839"
     },
     {
         "id":25,
@@ -182,13 +157,8 @@
     {
         "id":27,
         "Dead":"Apres que Vos chemin se soit separer tu tombes nez a nez face a un ours malheureusement tu finis dans son ventre. Mais t'en fait pas chuck t'as venger (Video chuck vs Ours)",
-        "image":
+        "image": ""
     },
-    {
-        "id":28,
-        "Dead":,
-        "image":
-    }
     {
         "id":29,
         "Dead": "Rip Ajout vidéo combat bruce lee"
@@ -201,7 +171,6 @@
     {
         "id": 31,
         "Dead": " RIP : YOU LOOSE : Chuck est medaillé d'or olympique au lancer de javelot "
-
     },
     {
         "id":32,
@@ -236,25 +205,5 @@
         "id":38,
         "Dead":"RIP Chuck ne te laisse pas respirer il  te fais un combos  pied poing tout tes membres sont fracturés tu meurs au bout de 48h d'agonie",
         "image": "https://media.giphy.com/media/l1J3nSSLY2oRD2Wys/giphy.gif"
-    },
-    {
-        "id":39,
-        "Dead":,
-        "image":
-    },
-    {
-        "id":40,
-        "Dead":,
-        "image":
-    },
-    {
-        "id":41,
-        "Dead":,
-        "image":
-    },
-    {
-        "id":42,
-        "Dead":,
-        "image":
-    },
+    }
 ]
