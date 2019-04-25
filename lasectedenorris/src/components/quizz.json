@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "Quest": " Etes-vous prêts ?!",
+        "image": "https://s3.amazonaws.com/mf-cnorris/assets/uploads/2016/10/19123509/timeline-05.jpg",
+        "rep1" : { "id": 2, "text": "Oui"},
+        "rep2" : {"id": 3, "text": "Je m'excuse, je me suis trompée d'endroit"},
+        "rep3" : {"id": 6, "text": "surprise"}
+
+    },
+    {
+        "id": 2,
+        "Quest":"Chuck est en face de toi et te sourit, que fais-tu ?",
+        "image":"",
+        "rep1" : { "id": 30, "text": "Tu lui serres la main"},
+        "rep2" : {"id": 4, "text": "Tu le regardes de travers genre 'Wesh qu'est-ce qu'il y a toi ?'"},
+        "rep3" : {"id": 31, "text": "Un caillou se trouve à tes pieds. Tu décides de lui lancer à la gueule."}
+    },
+    {
+        "id": 3,
+        "Quest":"Chuck est en face de toi, il veut t'aider à retrouver ton chemin, que fais-tu ?",
+        "image":"",
+        "rep1" : { "id": 29, "text": "Tu lui demandes un intégrale de Walker texas rangers, tu retrouveras ton chemin plus tard."},
+        "rep2" : {"id": 12, "text": "Tu lui proposes de boire un café dans lequel tu as mis de l'acide. Pour qui il se prend ce con ?!"},
+        "rep3" : {"id": 31, "text": "Chuck Norris t'emènnes quelques part et tu décides de lui faire confiance."}
+    },
+    {
+        "id": 4,
+        "Quest":"Chuck n'aime pas ton regard et déracine un arbre centenaire qui était près de lui, c'est le moment de réagir que fais tu ?!",
+        "image":"",
+        "rep1" : { "id": 31, "text": "Courir le plus vite possible"},
+        "rep2" : {"id": 5, "text": "Se mettre en PLS"},
+        "rep3" : {"id": 32, "text": "Affronte ton destin .."}
+    },
+    {
+        "id": 5,
+        "Quest":"Bien Joué cette feinte fonctionne, Chuck te prodigues les premier soins de secours et veut se lier d'amitié avec toi.Il te propose d'aller boire un verre",
+        "image":"",
+        "rep1" : { "id":11, "text": "Accepter"},
+        "rep2" : {"id":12, "text": "Refuser"},
+    },
+    {
+        "id":6,
+        "Dead": "Rip Ajout vidéo combat bruce lee"
+    },
+    {
+        "id": 30,
+        "Dead": "RIP :  YOU LOOSE : Sans le vouloir Chuck t'as explosé la main, le cartilage de tes doigts est remonté jusque dans ton coeur ce qui à provoqué une mort fugace mais douloureuse."
+    },
+    {
+        "id": 31,
+        "Dead": " RIP : YOU LOOSE : Chuck est medaillé d'or olympique au lancer de javelot "
+
+    },
+    {
+        "id":32,
+        "Dead": "RIP : C'est ton destin video les incconus"
+    },
+    {
+        "id":33,
+        "Dead":
+    }
+]
