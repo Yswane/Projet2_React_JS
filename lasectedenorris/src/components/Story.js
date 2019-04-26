@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import {Link} from 'react-router-dom';
-import Button_Chuck_Top from '../components/Button_Chuck_Top';
+import ButtonChuckTop from '../components/ButtonChuckTop';
 import '../components/Story.css';
 
 class Story extends Component {
@@ -26,7 +26,7 @@ render() {
 
     return (
         <>
-        <Button_Chuck_Top/>
+        <ButtonChuckTop/>
          <div className="box-question">
     <img src="https://s3.amazonaws.com/mf-cnorris/assets/uploads/2016/10/19123509/timeline-05.jpg" alt="chuck accueil" />
 

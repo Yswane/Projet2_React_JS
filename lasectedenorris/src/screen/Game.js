@@ -3,7 +3,7 @@ import './Home.css'
 import './Game.css'
 import Basegame from '../components/Basegame'
 import Story from '../components/Story'
-import Button_Chuck_Top from '../components/Button_Chuck_Top'
+import ButtonChuckTop from '../components/ButtonChuckTop'
 
 class Game extends Component {
     render() {
@@ -15,7 +15,7 @@ class Game extends Component {
                     
                    {/* <Basegame /> */}
                    <Story />
-                   <Button_Chuck_Top />
+                   <ButtonChuckTop />
                 </body>
             </>
         );
