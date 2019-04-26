@@ -23,10 +23,12 @@ class Footer extends Component{
 
             <ul className =" ul-foot">
                 <a href="https://chucknorris.com/"><li className ="li-foot">Contact</li></a>
-                <a href="https://www.facebook.com/groups/102049689879538/" target="_blank" rel="noopener noreferrer" ><img className="icon-footer" src="https://i.pinimg.com/originals/6f/8e/f7/6f8ef7788e9d6b78b027b640089a0fd1.png" alt=""/></a>
-                <a href="https://twitter.com/ChuckNo20220926" target="_blank" rel="noopener noreferrer"><img className="icon-footer" src="https://abracadabrapdf.net/wp-content/uploads/2014/12/twitter.png" alt=""/></a>  
-                <a href="https://www.instagram.com/explore/tags/chucknorris/" target="_blank" rel="noopener noreferrer" ><img className="icon-footer" src="http://www.pngall.com/wp-content/uploads/2016/04/Instagram-PNG-Pic.png" alt=""/></a>
-                <a href="https://media.giphy.com/media/pvJyvknexyCCQ/giphy.gif"><img className="icon-footer" src="https://cdn.freebiesupply.com/logos/thumbs/1x/tinder-icon-logo.png" alt=""/></a>            
+                    <div className='logo-foot'>
+                    <a href="https://www.facebook.com/groups/102049689879538/" target="_blank" rel="noopener noreferrer" ><img className="icon-footer" src="https://i.pinimg.com/originals/6f/8e/f7/6f8ef7788e9d6b78b027b640089a0fd1.png" alt=""/></a>
+                    <a href="https://twitter.com/ChuckNo20220926" target="_blank" rel="noopener noreferrer"><img className="icon-footer" src="https://abracadabrapdf.net/wp-content/uploads/2014/12/twitter.png" alt=""/></a>  
+                    <a href="https://www.instagram.com/explore/tags/chucknorris/" target="_blank" rel="noopener noreferrer" ><img className="icon-footer" src="http://www.pngall.com/wp-content/uploads/2016/04/Instagram-PNG-Pic.png" alt=""/></a>
+                    <a href="https://media.giphy.com/media/pvJyvknexyCCQ/giphy.gif"><img className="icon-footer" src="https://cdn.freebiesupply.com/logos/thumbs/1x/tinder-icon-logo.png" alt=""/></a> 
+                </div>           
             </ul>
         </div>
 

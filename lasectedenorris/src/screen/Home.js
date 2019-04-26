@@ -20,9 +20,9 @@ class Home extends Component {
             {/* Citation API + video */}
             <div className="videoWalker">
               <Walkertexas />
-             
+
             </div>
-    
+
             {/* Bannière Chuck */}
             <div className="bannerChuck">
               <Chuckbanner />
