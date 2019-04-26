@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './Home.css'
 import './Game.css'
-import Basegame from '../components/Basegame'
 import Story from '../components/Story'
+
 import ButtonChuckTop from '../components/ButtonChuckTop'
 
 class Game extends Component {
@@ -12,8 +12,6 @@ class Game extends Component {
                 <title>Page Game</title>
 
                 <body>
-                    
-                   {/* <Basegame /> */}
                    <Story />
                    <ButtonChuckTop />
                 </body>

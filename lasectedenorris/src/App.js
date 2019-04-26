@@ -14,14 +14,19 @@ import Button_Chuck_Top from './components/ButtonChuckTop';
 import ChuckBar from "./components/ChuckBar"
 import Footer from "./components/Footer"
 import Filmchuck from "./screen/Filmchuck"
-import sound from './sound/Sound-P90.mp3'
-import Popo from './components/Popo';
+import sound from './sound/Sound-P90.mp3';
+
+
+
 
 class App extends Component {
 
-  state = { play: false };
+  state = { play: false,};
   src = sound;
-  audio = new Audio(this.src);  
+  audio = new Audio(this.src); 
+
+
+  
   
       play = () => {
         this.setState({ play: this.state.play });
@@ -31,13 +36,15 @@ class App extends Component {
       }
 
   render() {
+    // console.log(this.state.gameData)
     return (
       <div>
   <header id="haut">
   <Button_Chuck_Top />
     <ChuckBar gunSound={this.play} />
+      
   </header>
-      <Popo />
+        
 
         <Switch>
           {/* <Route exact="/" component={VideoHome} /> */}
