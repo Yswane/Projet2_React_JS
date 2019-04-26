@@ -1,0 +1,30 @@
+img{
+    width: 25vw;
+    height: auto;
+}
+.container-quizz{
+    margin: 0% 20%;
+    padding-bottom: 3%;
+}
+.box-question {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.box-button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.button-quizz {
+    border : 1px solid black;
+    background-color: grey;
+    color: black;
+    font-size: 1.3em;
+    text-decoration: none;
+    max-width: 25%;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    padding: 1%;
+}

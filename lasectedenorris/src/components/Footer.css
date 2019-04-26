@@ -18,6 +18,7 @@ footer {
     list-style-type: none;
     line-height: 40px;
     color: white;
+    margin-left: -60%; 
 }
 
 footer p {
@@ -38,6 +39,8 @@ footer p {
 
 .icon-footer {
     width: 4vw;
-    margin-left: 5px;
 
+}
+.logo-foot{
+    margin-left: -60%;
 }

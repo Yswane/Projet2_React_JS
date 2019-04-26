@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './Home.css'
 import './Game.css'
-
+import Basegame from '../components/Basegame'
+import Story from '../components/Story'
+import ButtonChuckTop from '../components/ButtonChuckTop'
 
 class Game extends Component {
     render() {
@@ -11,7 +13,9 @@ class Game extends Component {
 
                 <body>
                     
-                   
+                   {/* <Basegame /> */}
+                   <Story />
+                   <ButtonChuckTop />
                 </body>
             </>
         );
