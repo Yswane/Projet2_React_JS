@@ -98,9 +98,10 @@ text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #
 
 .p-home{
     text-align: center;
-    color:rgb(78, 47, 35);
-    font-family: 'Kaushan', normal;
-    font-size: 3vh;
+    color:white;
+    /* font-family: 'Kaushan', normal; */
+    font-size: 2.5vh;
     font-weight: bold;
-    text-shadow: 0.1px 0 0 #fff, -2px 0 0 #fff, 0 1px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    text-shadow: 4px 4px 4px black;
+    /* text-shadow: 0.1px 0 0 #fff, -2px 0 0 #fff, 0 1px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; */
 }
