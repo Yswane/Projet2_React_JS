@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {BrowserRouter,Switch, NavLink} from 'react-router-dom'
 import ButtonChuckTop from '../components/ButtonChuckTop';
+import quizz from './quizz.json'
 
 
 import './BaseGame.css'
