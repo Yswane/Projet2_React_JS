@@ -3,10 +3,16 @@
     width:90%;
     color: white;
     padding: 3%;
+    opacity: 0.9;
+    border-radius: 1%;
+    
 }
 
 .background-chuck{
-   background: url('https://image.noelshack.com/fichiers/2019/16/6/1555779464-chuck-movie2.png') repeat;
+    border: 3px solid black;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: url('https://image.noelshack.com/fichiers/2019/16/6/1555779464-chuck-movie2.png') repeat;
 }
 
 .chuck_movie img{

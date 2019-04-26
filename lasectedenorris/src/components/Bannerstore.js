@@ -19,7 +19,7 @@ class Bannerstore extends Component {
       <div className="text_ban_store">
       <p className="loremchuck">Chuck Norris n'est pas égal à lui même, il est meilleur. Achètes donc des goodies Chuck Norris pour tenter de l'égaler !
       </p>
-      <a href="/Shop" Target="_blank" class="button_store" title="Achèèètes"><Link to="/Shop" />Choppe Chuck</a>
+      <a href="/Shop" Target="_blank" class="button_store" title="Achèèètes"><Link to="/Shop" />Choppe Chuck  <span class="icon-play"><i class="fas fa-chevron-circle-right"></i></span></a>
       </div>
       </div>
     );
@@ -27,3 +27,6 @@ class Bannerstore extends Component {
 }
 
 export default Bannerstore;
+
+
+{/* <img className="dollars" src="https://cdn.pixabay.com/photo/2016/10/25/18/49/money-1769716__340.png" alt="dollars" /> */}
