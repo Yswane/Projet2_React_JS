@@ -9,16 +9,33 @@
 .facts {
     display : flex;
     align-items : center;
-    background-color : white;
+    /* background-color : white; */
+    background: url(https://images.unsplash.com/photo-1533631273148-264f2ec26448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1778&q=80);
+    color: white;
     border: 5px solid #e2af74;
     padding : 10px;
-    margin : 5px 30px;
     border-radius : 8px;
+    opacity: 0.8;
+    width: 80%;
+    margin: 20px auto;
 }
+
+
+
+div.Counterfact-title {
+    margin-left: 180px;
+}
+
+
+.facts h3 {
+    z-index: 5;
+}
+
 
 .fact-description {
     flex : 1.0;
     text-align: center;
+    
     }
 .factLikeDislike {
     flex : 0.2;
@@ -28,8 +45,7 @@
     }
 .factLikeDislike button {
         background : none;
-        border : black;
-    
+        border : black;    
         }
 
 .Up{

@@ -35,7 +35,7 @@
      border: 2px solid #FFC400;
     border-radius: 8px;
     display: inline-block;
-    padding: 7px 30px 6px;
+    padding: 5px;
     color: white;
     font-style: normal;
     font-weight: 700;
@@ -46,13 +46,16 @@
     text-decoration: none;
     text-transform: uppercase;
     }
+
 .text_ban_store {
     text-align: center;
     }
-.dollars {
-    max-height: 7vh;
+
+/* .dollars {
+    padding-top: 50px;
+    max-height: 3vh;
     }
-    
+     */
 @media screen and (max-width: 768px) {
     .banner_store{
         padding-bottom: 2%;
