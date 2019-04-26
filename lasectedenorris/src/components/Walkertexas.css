@@ -2,7 +2,6 @@
     width: 40%;
     margin: 0 auto;
     background-image: url(http://nonstopchucknorris.com/wp-content/themes/chucknorris/dist/img/bg-video.png);
-    width: 45vw;
     height: 490px;
     background-position-x:50%;
     background-position-y:50%;
@@ -12,8 +11,8 @@
     text-align:center;
 }
 .video_walker {
-    width:40vw;
-    height:45vh;
-    margin-top: 10vh;
+    width:80%;
+    height:40vh;
+    margin-top: 4vh;
 
 }

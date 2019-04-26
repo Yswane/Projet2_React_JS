@@ -2,11 +2,11 @@
 
 .home-game-banner-bg{
     position: absolute;
-    background-image:url("https://image.noelshack.com/fichiers/2019/14/3/1554301827-bg-gamer-brown.jpg");
+    /* background-image:url("https://image.noelshack.com/fichiers/2019/14/3/1554301827-bg-gamer-brown.jpg"); */
     height: 40vh;
     opacity: 0.9;
     z-index: 0;
-    width: 95vw;
+    width: 100%;
     text-align: center;
   }
 
