@@ -24,7 +24,6 @@ class App extends Component {
   play = () => {
     this.setState({ play: this.state.play });
     console.log(this.audio);
-
     this.setState({ play: this.audio.play() });
   }
 
@@ -44,6 +43,8 @@ class App extends Component {
           <Route path="/game" component={Game} />
           <Route path="/filmography" component={Filmchuck} />
         </Switch>
+
+        
         <footer id="bas">
           <Footer />
         </footer>
