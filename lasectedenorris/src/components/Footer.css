@@ -1,9 +1,9 @@
 footer {
     border: solid 1px black;
     height: 5%;
-    background: url(https://images.unsplash.com/photo-1533631273148-264f2ec26448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1778&q=80);
-    margin-left: 2%;
-    margin-right: 2%;
+    background: black;
+    /* background: url(https://images.unsplash.com/photo-1533631273148-264f2ec26448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1778&q=80); */
+
 }
 
 

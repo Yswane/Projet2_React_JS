@@ -34,8 +34,8 @@ section.BannerGame{
   padding-top: 5vh;
 }
 section.BannerStore{
-  margin-top: -5%;
-  margin-bottom: 1%;
+  /* margin-top: -5%;
+  margin-bottom: 1%; */
   /* background-color: rgb(206, 174, 135); */
   height: 60vh;
   text-align:center;

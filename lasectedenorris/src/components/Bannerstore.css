@@ -5,12 +5,13 @@
     justify-content: space-evenly;
     color:white;
     border:ridge 5px rgb(78, 47, 35);;
-    padding-bottom: 2%;
+    /* padding-bottom: 2%; */
     margin-right:5%;
     margin-left: 5%;
     border-radius: 7% 44% 44% 7%;
     }
-    
+
+
 .pic_of_chuck_store img{
     max-width:220px;
     margin-left: 4%;
