@@ -17,7 +17,7 @@ class VideoHome extends Component {
                 </div>
 
 
-                <video className="sizeVideo"  autoplay="autoplay"
+                <video className="sizeVideo"  autoplay="autoplay" controls
                     source src="https://chucknorris.com/assets/themes/chuck-norris/videos/chucknorris.mp4" type="video/mp4">
                 </video>
             </>

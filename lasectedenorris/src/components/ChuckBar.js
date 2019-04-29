@@ -16,7 +16,7 @@ class ChuckBar extends Component {
             <ul className="Main-nav">
               <li><a href="./src/screen/Home.js" onClick={this.props.gunSound}><NavLink exact to="/home"> Accueil</NavLink></a></li>
               <li><a href="./src/screen/Shop.js" onClick={this.props.gunSound}><NavLink exact to="/Shop"> Magasin </NavLink></a></li>
-              <li className="LiImageChuck"><a href="./src/screen/Home.js" onClick={this.props.gunSound}> <img  src="https://image.noelshack.com/fichiers/2019/14/3/1554323367-kisspng-globe-life-park-in-arlington-texas-rangers-texas-r-texas-rangers-5b0efe2ebf2f32-1568870215277092307831.png" alt=" de chuck"></img></a></li>
+              <li className="LiImageChuck"><a href="./src/screen/Home.js" onClick={this.props.gunSound}> <NavLink exact to="/"> <img  src="https://image.noelshack.com/fichiers/2019/14/3/1554323367-kisspng-globe-life-park-in-arlington-texas-rangers-texas-r-texas-rangers-5b0efe2ebf2f32-1568870215277092307831.png" alt=" de chuck"></img></NavLink></a></li>
               <li><a href="./src/screen/Chuck.js" onClick={this.props.gunSound}><NavLink exact to="/Chuck"> Chuck Page </NavLink></a></li>
               <li><a href="./src/screen/Game.js" onClick={this.props.gunSound}><NavLink exact to="/Game"> Jeu quizz </NavLink></a></li>
             </ul>
