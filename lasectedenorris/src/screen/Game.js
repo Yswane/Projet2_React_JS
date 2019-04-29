@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css'
 import './Game.css'
-import Basegame from '../components/Basegame'
 import Story from '../components/Story'
 import ButtonChuckTop from '../components/ButtonChuckTop'
 
