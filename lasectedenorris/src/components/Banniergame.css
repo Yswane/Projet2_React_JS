@@ -1,12 +1,15 @@
-
+section.BannerGame {
+    margin-bottom: 10%;;
+}
 
 .home-game-banner-bg{
     position: absolute;
-    background-image:url("https://image.noelshack.com/fichiers/2019/14/3/1554301827-bg-gamer-brown.jpg");
-    width: 100%;
+    /* background-image:url("https://image.noelshack.com/fichiers/2019/14/3/1554301827-bg-gamer-brown.jpg"); */
     height: 40vh;
     opacity: 0.9;
     z-index: 0;
+    width: 100%;
+    text-align: center;
   }
 
 .Chuck-small-fellow{
@@ -33,7 +36,7 @@
     text-justify: center;
     margin-left: 35%;
     margin-top: -11%;
-    font-size: 5vh;
+    font-size: 4vh;
     color: antiquewhite;
     z-index: 2;
 }
@@ -44,7 +47,7 @@
     left: 0; 
     right: 0; 
     bottom: 0; 
-    background: rgba(219, 124, 69, 0.9); 
+    background: rgba(146, 76, 36, 0.9); 
     visibility: hidden; 
     opacity: 0; 
     -webkit-transition: .3s all ease; 

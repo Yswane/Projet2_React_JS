@@ -71,7 +71,7 @@ class Counter extends Component{
         // On définit les éléments "upIcon(like) et downIcon(dislike)"
 
         let upIcon      = <img src="https://cdn.designcrowd.com/blog/2016/March/icons-vs-logos/FBLike-Icon_300_v2.png" alt="" aria-hidden="true" className='Up'></img>
-        let downIcon    = <img src="https://publicdomainphotography.com/assets/cache/idOTU1NTQzZWZlOWNmZWYw-5d562b13e55b1d48b9afb5f33e03be09.jpg" alt="" aria-hidden="true" className='Down'></img>
+        let downIcon    = <img src="https://image.noelshack.com/fichiers/2019/17/5/1556268353-pouce.png" alt="" aria-hidden="true" className='Down'></img>
 
         // Si l'on n'a pas encore "liké"
         if(!this.state.isLiked)
@@ -79,7 +79,7 @@ class Counter extends Component{
 
         // Si l'on a pas encore "disliké"
         if(!this.state.isDisliked)
-            downIcon = <img src="https://publicdomainphotography.com/assets/cache/idOTU1NTQzZWZlOWNmZWYw-5d562b13e55b1d48b9afb5f33e03be09.jpg" alt="" aria-hidden="true" className='Down'></img>
+            downIcon = <img src="https://image.noelshack.com/fichiers/2019/17/5/1556268417-slack-imgs-com-v2.png" alt="" aria-hidden="true" className='Down'></img>
 
 
     return ( <>
