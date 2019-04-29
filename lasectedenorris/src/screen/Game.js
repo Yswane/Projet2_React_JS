@@ -11,8 +11,6 @@ class Game extends Component {
                 <title>Page Game</title>
 
                 <body>
-                    
-                   {/* <Basegame /> */}
                     <Story />
                     <ButtonChuckTop />
                 </body>
