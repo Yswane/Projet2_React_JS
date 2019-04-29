@@ -2,7 +2,7 @@
     {
         "id": 1,
         "Quest": " Etes-vous prêts ?!",
-        "image": "https://s3.amazonaws.com/mf-cnorris/assets/uploads/2016/10/19123509/timeline-05.jpg",
+        "image": "https://purepng.com/public/uploads/large/purepng.com-chuck-norrischuck-norrischucknorriscarlos-ray-norrisamerican-martial-artistactorproducerscreenwriter-1701528022186rjflr.png",
         "rep1" : { "id": 2, "text": "Oui"},
         "rep2" : {"id": 3, "text": "Je m'excuse, je me suis trompé(e) d'endroit"},
         "rep3" : {"id": 26, "text": "surprise"}
@@ -19,7 +19,7 @@
     {
         "id": 3,
         "Quest":"Chuck est en face de toi, il souhaiterait t'aider à retrouver ton chemin, que fais-tu ?",
-        "image":"",
+        "image":"https://spng.pngfly.com/20180509/iuq/kisspng-chuck-norris-facts-martial-arts-chun-kuk-do-5af391f2503f41.7822729215259120503287.jpg",
         "rep1" : { "id": 9, "text": "Tu lui demandes un intégrale de Walker texas rangers, tu retrouveras ton chemin plus tard."},
         "rep2" : {"id": 12 , "text": "Pour qui il se prend ce con ?! Tu lui proposes de boire un café dans lequel tu as mis de l'acide. "},
         "rep3" : {"id": 13, "text": "Chuck Norris t'emmènes quelque part et tu décides de lui faire confiance."}
