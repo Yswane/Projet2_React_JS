@@ -1,11 +1,18 @@
 import React from 'react';
 import '../components/Story.css';
 import quizz from './quizz.json'
-import displayGame from './displayGame'
+import DisplayGame from './DisplayGame'
+
+
+const datarep1 = quizz.map(toto=> toto.rep1)
+console.log(datarep1)
 
 function gameQuest(data){
     return data.map(toto => {
-        return (<displayGame quest={toto.Quest} image={toto.image} />)
+        return (<DisplayGame 
+            quest={toto.Quest}
+            image={toto.image} 
+            rep1={toto.rep1} />)
       })
 }
 
