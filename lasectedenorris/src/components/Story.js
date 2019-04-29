@@ -12,7 +12,8 @@ function gameQuest(data){
         return (<DisplayGame 
             quest={toto.Quest}
             image={toto.image} 
-            rep1={toto.rep1} />)
+            // rep1={toto.rep1} / 
+        /> )
       })
 }
 

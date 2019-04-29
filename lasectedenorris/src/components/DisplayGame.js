@@ -6,9 +6,9 @@ const DisplayGame = ({ id, quest, image, rep1, rep2, rep3 }) => {
             <h1>{quest}</h1>
             <img src={image} />
             <ul>
-                <li>{rep1.id}</li>
-                <li>{rep2.id}</li>
-                <li>{rep3.id}</li>
+                <li>{rep1}</li>
+                <li>{rep2}</li>
+                <li>{rep3}</li>
             </ul>
         </div>
     )
