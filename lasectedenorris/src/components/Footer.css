@@ -44,3 +44,25 @@ footer p {
 .logo-foot{
     margin-left: -60%;
 }
+
+@media (max-width:767px) {
+  .foot-content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column
+    }
+    .li-foot{
+        margin: -15% auto;
+        text-align: center;
+    }
+    .icon-footer{
+        width: 15vw;
+        margin-top: 20%;
+
+     
+    }
+    .logo-foot{
+        margin: auto;
+    }
+}
