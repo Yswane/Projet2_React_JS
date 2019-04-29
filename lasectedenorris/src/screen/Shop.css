@@ -1,6 +1,6 @@
 .contenair-global {
     padding-top: 2%;
-    height: 75vh;
+    /* height: 75vh; */
     background: url('https://szftlgs.com/wp-content/uploads/data/2018/1/6/free-monument-valley-wallpaper-hd-wallpapers-PIC-WSW1057501.jpg');
     
     
@@ -26,14 +26,14 @@
     width: 30%;
     /* background: yellow; */
     margin-left: 3%;
-    padding-top: 10vh;
+    padding-top: 5vh;
     
     
 }
 
 .image-product {
     border-radius: 30%;
-    box-shadow: 10px 10px 10px rgb(116, 5, 5);
+    /* box-shadow: 10px 10px 10px rgb(94, 94, 114); */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -70,7 +70,7 @@
     font-weight: 300;
     text-shadow: 1px 1px 1px white;
     /* background:orange; */
-    font-size: 150%;
+    font-size: 170%;
     /* padding-bottom: 5%; */
 }
 
@@ -85,8 +85,6 @@
 
 
 
-
-
 .contenair-text-product {
     display: flex;
     flex-direction: column;
@@ -97,8 +95,10 @@
 
 
 .ButtonProduct {
+    display: block;
     margin-left: 70%;
-
+    padding-bottom: 5%;
+    /* background-color: aquamarine; */
 }
 
 

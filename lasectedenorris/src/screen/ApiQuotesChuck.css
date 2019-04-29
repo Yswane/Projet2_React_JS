@@ -72,7 +72,13 @@ div.ApiFact {
 
     margin-right: 30px;
 
+
+
 }
+
+
+
+
 
 
 
@@ -84,7 +90,7 @@ div.ApiFact {
 
     position: absolute;
 
-    top: 132%;
+    top: 110%;
 
     left: 54%;
 
@@ -106,6 +112,8 @@ div.ApiFact {
 
 
 
+
+
 .ButtonApiPageChuck:hover {
 
     opacity: 1;
@@ -116,15 +124,29 @@ div.ApiFact {
 
 
 
-
-
 @media screen and (max-width: 414px) {
+
+
 
     .chuckImageApi {
 
         width: 100%;
 
     }
+
+
+
+    .ButtonApiPageChuck {
+
+        font-size: 20px;
+
+        top: 70%;
+
+        width: 25%;
+
+    }
+
+
 
 
 
@@ -145,8 +167,6 @@ div.ApiFact {
         left: 48%;
 
         font-size: 6px;
-
-       
 
     }
 
@@ -174,17 +194,35 @@ div.ApiFact {
 
      }	
 
+
+
    }
 
 
 
+
+
    @media screen and (max-width: 320px) {
+
+
 
     .DivApiImage {
 
         left: 30%;
 
         top: 78%;
+
+    }
+
+
+
+    .ButtonApiPageChuck {
+
+        font-size: 20px;
+
+        top: 95%;
+
+        width: 25%;
 
     }
 
@@ -198,23 +236,37 @@ div.ApiFact {
 
         font-size: 5px;
 
-       
-
     }
-
-
 
    }
 
 
 
+
+
+
+
    @media (min-width: 370px) and (max-width: 380px) {
+
+
 
     .DivApiImage {
 
         left: 30%;
 
-        top: 57%;
+        top: 60%;
+
+    }
+
+
+
+    .ButtonApiPageChuck {
+
+        font-size: 15px;
+
+        top: 73%;
+
+        width: 15%;
 
     }
 
@@ -222,19 +274,17 @@ div.ApiFact {
 
     .ApiFact {
 
-        top: 59%;
+        top: 62%;
 
         left: 53%;
 
-        font-size: 5px;
-
-       
+        font-size: 5px;   
 
     }
 
-
-
    }
+
+
 
 
 
@@ -250,6 +300,18 @@ div.ApiFact {
 
 
 
+    .ButtonApiPageChuck {
+
+        font-size: 15px;
+
+        top: 80%;
+
+        width: 15%;
+
+    }
+
+
+
     .ApiFact {
 
         top: 64%;
@@ -258,15 +320,9 @@ div.ApiFact {
 
         font-size: 5px;
 
-       
-
     }
 
-
-
    }
-
-
 
 
 
@@ -275,6 +331,18 @@ div.ApiFact {
     .chuckImageApi {
 
         width: 100%;
+
+    }
+
+
+
+    .ButtonApiPageChuck {
+
+        font-size: 25px;
+
+        top: 55%;
+
+        width: 15%;
 
     }
 

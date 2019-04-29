@@ -4,13 +4,14 @@
     background-size: cover;
     justify-content: space-evenly;
     color:white;
-    border: inset goldenrod 1px;
-    padding-bottom: 2%;
+    border:ridge 5px rgb(78, 47, 35);;
+    /* padding-bottom: 2%; */
     margin-right:5%;
     margin-left: 5%;
     border-radius: 7% 44% 44% 7%;
     }
-    
+
+
 .pic_of_chuck_store img{
     max-width:220px;
     margin-left: 4%;
@@ -32,7 +33,7 @@
     
 .button_store {
     align-items: center;
-     border: 2px solid #FFC400;
+     border: 4px solid white;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -49,13 +50,17 @@
     text-decoration: none;
     text-transform: uppercase;
     }
+
 .text_ban_store {
     text-align: center;
+    font-size:70%;
     }
-.dollars {
-    max-height: 7vh;
+
+/* .dollars {
+    padding-top: 50px;
+    max-height: 3vh;
     }
-    
+     */
 @media screen and (max-width: 768px) {
     .banner_store{
         padding-bottom: 2%;
