@@ -1,14 +1,16 @@
 import React from 'react'
 
-const DisplayGame = ({ id, quest, image, rep1, rep2, rep3 }) => {
+const DisplayGame = ({ toto}) => {
+    console.log(toto);
+    
     return (
         <div>
-            <h1>{quest}</h1>
-            <img src={image} />
+            <h1>{toto.Quest}</h1>
+            <img src={toto.image} />
             <ul>
-                <li>{rep1}</li>
-                <li>{rep2}</li>
-                <li>{rep3}</li>
+                {/* <li>{toto.rep1.text}</li>
+                <li>{toto.rep2.text}</li>
+                <li>{toto.rep3.text}</li> */}
             </ul>
         </div>
     )
