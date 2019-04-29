@@ -14,8 +14,8 @@ class Game extends Component {
                 <body>
                     
                    {/* <Basegame /> */}
-                   <Story />
-                   <ButtonChuckTop />
+                    <Story />
+                    <ButtonChuckTop />
                 </body>
             </>
         );
