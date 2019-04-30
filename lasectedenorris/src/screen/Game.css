@@ -1,0 +1,13 @@
+body {
+    background: url(https://image.noelshack.com/fichiers/2019/18/2/1556614830-chuck-quizz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.invisible {
+    display: none;
+}
+
+

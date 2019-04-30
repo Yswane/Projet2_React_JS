@@ -1,25 +1,32 @@
 import React from 'react';
+
+import { Link } from 'react-router-dom';
+import ButtonChuckTop from '../components/ButtonChuckTop';
 import '../components/Story.css';
-import quizz from './quizz.json'
-import DisplayGame from './DisplayGame'
 
 
-const datarep1 = quizz.map(toto=> toto.rep1)
-console.log(datarep1)
+const Story = (props) => {
+        return (
+                <>
+                        <div className="container-quizz">
+                            <div className="box-question">
+                            
+                                <img className="illus" src={props.res.image}></img>
+                                <p className="question">{props.res.Quest}</p>
+                                </div>
+                                {/* <video source src={props.res.video}></video> */}
 
-function gameQuest(data){
-    return data.map(toto => {
-        return (<DisplayGame 
-            quest={toto.Quest}
-            image={toto.image} 
-            rep1={toto.rep1} />)
-      })
+                                
+
+                            </div>
+                        <iframe src={props.res.video} frameborder="0" allow="accelerometer; autoplay; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <ButtonChuckTop />
+                </>
+        )
 }
 
-const Story = () => {
-    return (
-        gameQuest(quizz)
-    )
-
-}
 export default Story;
+
+
+
+

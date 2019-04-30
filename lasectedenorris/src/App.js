@@ -46,6 +46,7 @@ class App extends Component {
           <Route path="/shop" component={Shop} />
           <Route path="/chuck" component={Chuck} />
           <Route path="/game" component={Game} />
+          {/* <Route path="/games/:id" component={Quiz} /> */}
           <Route path="/filmography" component={Filmchuck} />
         </Switch>
 
