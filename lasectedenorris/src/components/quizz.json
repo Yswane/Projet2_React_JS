@@ -29,7 +29,7 @@
     {
         "id": 4,
         "Quest":"Chuck n'aime pas ton regard et déracine un arbre centenaire qui était près de lui. C'est le moment de réagir que fais tu ?!",
-        "image":"",
+        "image":"https://media.giphy.com/media/K2ZWOSOLLYsAE/giphy.gif",
         "video": "",
         "rep1" : { "id": 28, "text": "Courir le plus vite possible"},
         "rep2" : {"id": 5, "text": "Se mettre en PLS"},
@@ -38,7 +38,7 @@
     {
         "id": 5,
         "Quest":"Bien joué cette feinte fonctionne, Chuck te prodigues les premier soins de secours et veut se lier d'amitié avec toi.Il te propose d'aller boire un verre.",
-        "image":"",
+        "image":"https://media.giphy.com/media/oAuUA47RB7WAE/giphy.gif",
         "video": "",
         "rep1" : { "id":6, "text": "Tu acceptes"},
         "rep2" : {"id":25, "text": "Tu refuses"},
@@ -47,7 +47,7 @@
     {
         "id": 6,
         "Quest":"Après une soiree plus qu'arrosée dans un bar local Chuck ne tenant pas le kérosène, il s'effrondre. Une chance inouie se presente à toi",
-        "image":"http://www.espace-loisirs.com/wp-content/uploads/2016/09/chuck-norris-hoegaarden-732x380.jpg",
+        "image":"https://media.giphy.com/media/sEH3lMz5hMBEc/giphy.gif",
         "video": "",
         "rep1" : { "id": 7, "text": "Tu lui dessines des bites sur le front"},
         "rep2": {"id":24, "text":"Tu tentes de l'étrangler"},
@@ -65,7 +65,7 @@
     {
         "id": 8,
         "Quest":"Une aura maléfique s'empare de Chuck, le ciel s'assombrit et la foudre tombe. Regrettes tu d'avoir égratigné Chuck avec ton caillou ?",
-        "image":"https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2016/09/23/103965484-GettyImages-506104983.1910x1000.jpg?v=1474664049",
+        "image":"",
         "video": "",
         "rep1" : { "id": 31, "text": "Oui, pardon messire"},
         "rep2" : {"id": 32, "text": "Non, pas vraiment"},
@@ -226,7 +226,7 @@
     },
     {
         "id":26,
-        "Quest": "Rip Ajout vidéo combat bruce lee",
+        "Quest": "Rip",
         "image": "",
         "video": "https://www.youtube.com/watch?v=6lxYH5Q_zCE",
         "rep1" : { "id": 0, "text": ""},
@@ -235,7 +235,7 @@
     },
     {
         "id": 27,
-        "Quest": "RIP :  YOU LOOSE : Sans le vouloir Chuck t'as explosé la main, le cartilage de tes doigts est remonté jusque dans ton coeur ce qui à provoqué une mort fugace mais douloureuse.",
+        "Quest": "RIP : Sans le vouloir Chuck t'as explosé la main, le cartilage de tes doigts est remonté jusque dans ton coeur ce qui à provoqué une mort fugace mais douloureuse.",
         "image": "http://www.przychodniaojcapio.pl/sites/default/files/field/image/heart_attack.png",
         "video": "",
         "rep1" : { "id": 0, "text": ""},
@@ -244,8 +244,8 @@
     },
     {
         "id": 28,
-        "Quest": " RIP : YOU LOOSE : Chuck est medaillé d'or olympique au lancer de javelot ",
-        "image": "",
+        "Quest": " RIP : Chuck est medaillé d'or olympique au lancer de javelot ",
+        "image": "https://slack-imgs.com/?c=1&url=http%3A%2F%2Fimage.noelshack.com%2Ffichiers-md%2F2019%2F18%2F1%2F1556553106-javelotnorris.jpg",
         "video": "",
         "rep1" : { "id": 0, "text": ""},
         "rep2" : {"id": 0, "text": ""},

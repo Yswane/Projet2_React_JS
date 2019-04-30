@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Link } from 'react-router-dom';
+import '../Style.css'
 import ButtonChuckTop from '../components/ButtonChuckTop';
 import '../components/Story.css';
 
@@ -14,7 +15,7 @@ const Story = (props) => {
                                 <img className="illus" src={props.res.image}></img>
                                 <p className="question">{props.res.Quest}</p>
                                 </div>
-                                {/* <video source src={props.res.video}></video> */}
+
 
                                 
 
@@ -26,7 +27,3 @@ const Story = (props) => {
 }
 
 export default Story;
-
-
-
-
