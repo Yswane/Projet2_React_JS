@@ -2,7 +2,6 @@ import React, { Component } from "react"
 import { Link } from "react-router-dom"
 
 import res from '../components/quizz.json'
-import Content from "./Content.js";
 import './Story.css';
 
 class Story extends Component {
