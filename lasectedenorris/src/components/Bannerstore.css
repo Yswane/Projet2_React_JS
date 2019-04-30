@@ -9,6 +9,7 @@
     margin-right:5%;
     margin-left: 5%;
     border-radius: 7% 44% 44% 7%;
+    height: 100%;
     }
 
 
@@ -66,23 +67,19 @@
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto;
-        margin-left: 19vw;
-        margin-right: 15vw;
         margin-top: 40%;
         border-radius: 3% 3% 3% 3%;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 90vh;
+        height: 70vh;
+        width: 90%;
 
         }
     .text_ban_store p{
         max-width: 55vw;
         padding-top: 1vh;
         padding-right:1vw;
-        margin-bottom: 10%;
-
-
     }
     .loremchuck {
         font-size: 1.3em;
@@ -90,11 +87,21 @@
     }
     .button_store {
         border-radius: 6px;
-        height: 10vh;
-        display: inline-block;
-        margin-top: 20%;
-        font-weight: 500;
-        font-size: 1.4em;
+        height: 9vh;
+        width: 100%;
+        font-weight: 700;
+        margin: auto;
+        font-size: 26px;
+        align-items: center;
+        padding: 7px 30px 6px;
+        padding:2%;
+        
+
+        }
+    .pic_of_chuck_store img{
+        max-width:30vh;
+        margin-left: 1%;
+        margin-top: -5%;
         }
 
     }

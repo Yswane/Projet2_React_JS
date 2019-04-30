@@ -62,18 +62,19 @@ section.BannerGame {
     transition: .3s all ease;
     text-align: center;
  }
- .banner-game-hover .banner-game-inner h2 {
-    color: #fff;
-    font-size: 26px;
-    line-height: 1.2;
+ .banner-game-hover h2{
+    color: white;
+    font-size: 90px;
     font-style: italic;
+    font-weight: bold;
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
     opacity: 0;
     visibility: hidden;
     position: relative;
-    bottom: -10%;
+    padding-top: 2%;
+
  }
  .banner-game-hover, hover{
     color: rgba(255, 255, 255, 0.8);
@@ -128,18 +129,33 @@ section.BannerGame {
         text-justify: center;
         margin-left: 48vw;
         margin-top: 4%;
-        width: 35vw;
+        width: 34vw;
     }
     .Title-banner-game{
         display: flex;
-        margin-left: 42vw;
+        margin-left: 37vw;
         margin-top: -30vh;
-        width:53vw;
+        width:57vw;
     }
     .Chuck-small-fellow{
         display: flex;
         height: 35vh;
-        margin-left: 15vw;
+        margin-left: 9vw;
     }
+    .banner-game-hover h2{
+      color: white;
+      font-size: 90px;
+      font-style: italic;
+      font-weight: bold;
+      -webkit-transition: .3s all ease;
+      -o-transition: .3s all ease;
+      transition: .3s all ease;
+      opacity: 0;
+      visibility: hidden;
+      position: relative;
+      padding-top: 10%;
+  
+   }
+    
  }
  
