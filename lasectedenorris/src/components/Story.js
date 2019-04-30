@@ -9,15 +9,24 @@ const Story = (props) => {
         return (
                 <>
                         <div className="container-quizz">
-                        <div className="box-question">
+                            <div className="box-question">
+                            
+                                <img className="illus" src={props.res.image}></img>
                                 <p className="question">{props.res.Quest}</p>
                                 </div>
-                                <img className="illus" src={props.res.image}></img>
+                                {/* <video source src={props.res.video}></video> */}
 
-                        </div>
+                                
+
+                            </div>
+                        <iframe src={props.res.video} frameborder="0" allow="accelerometer; autoplay; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <ButtonChuckTop />
                 </>
         )
 }
 
 export default Story;
+
+
+
+

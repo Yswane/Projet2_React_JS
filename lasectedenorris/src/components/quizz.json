@@ -11,7 +11,8 @@
     {
         "id": 2,
         "Quest":"Chuck est en face de toi et te souris, que fais-tu ?",
-        "image":"https://mediamass.net/jdd/public/documents/celebrities/662.jpg",
+        "image":"",
+        "video":"https://www.youtube.com/embed/EtH9Yllzjcc",
         "rep1" : { "id": 27, "text": "Tu lui serres la main"},
         "rep2" : {"id": 4, "text": "Tu le regardes de travers genre 'Wesh qu'est-ce qu'il y a toi ?'"},
         "rep3" : {"id": 8, "text": "Un caillou se trouve à tes pieds. Tu décides de lui lancer à la gueule."}

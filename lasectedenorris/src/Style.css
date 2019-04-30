@@ -43,3 +43,9 @@
     font-weight: 900;
     src: url(./fonts/OldWestern.otf);
 }
+@font-face {
+    font-family: "PermanentMarker";
+    font-style: "Regular";
+    font-weight: 900;
+    src: url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+}
