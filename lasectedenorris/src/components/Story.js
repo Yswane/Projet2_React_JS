@@ -6,17 +6,18 @@ import '../components/Story.css';
 
 
 const Story = (props) => {
-    return (
-            <>
+        return (
+                <>
+                        <div>
+                                <p>{props.res.id}</p>
+                                <p>{props.res.Quest}</p>
+                                <img src={props.res.image}></img>
 
-                    <p>{props.test.quest}</p>
-                
-                    <p>{props.test.id}</p>
-
-                <ButtonChuckTop />
-            </>
-            )
-        }
+                        </div>
+                        <ButtonChuckTop />
+                </>
+        )
+}
 
 export default Story;
 
