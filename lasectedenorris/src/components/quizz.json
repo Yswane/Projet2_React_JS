@@ -217,8 +217,8 @@
     },
     {
         "id":25,
-        "Quest":"Apres que Vos chemin se soit separer tu tombes nez a nez face a un ours malheureusement tu finis dans son ventre. Mais t'en fait pas chuck t'as venger (Video chuck vs Ours)",
-        "image": "",
+        "Quest":"Après que vos chemins se soient separés tu tombes nez à nez face à un ours malheureusement tu finis dans son ventre. Mais t'en fais pas chuck t'as venger (Video chuck vs Ours)",
+        "image": "", 
         "video": "",
         "rep1" : { "id": 0, "text": ""},
         "rep2" : {"id": 0, "text": ""},
