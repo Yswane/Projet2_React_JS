@@ -126,7 +126,10 @@ div.Image-logo{
 div.Image-logo img {
 	width: 10%;
 	margin-left: 3%;
-}		
+}
+div.Image-logo{
+	width: 180%;
+   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -146,6 +149,10 @@ div.Image-logo img {
 	div.Image-logo img {
 		width: 15%;
 		margin-left: 4%;
-	}			
 	}
+	div.Image-logo{
+		width: 180%;
+	   }
+	}
+	
 	

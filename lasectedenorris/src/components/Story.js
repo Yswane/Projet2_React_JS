@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "../Style.css"
 import { Link } from 'react-router-dom';
 import '../Style.css'
 import ButtonChuckTop from '../components/ButtonChuckTop';
@@ -11,8 +11,11 @@ const Story = (props) => {
                 <>
                         <div className="container-quizz">
                             <div className="box-question">
-                            
+
                                 <img className="illus" src={props.res.image}></img>
+                                
+                            <iframe src={props.res.video} frameborder="0" className="video-quizz" allow="accelerometer; autoplay; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
                                 <p className="question">{props.res.Quest}</p>
                                 </div>
 
@@ -20,7 +23,7 @@ const Story = (props) => {
                                 
 
                             </div>
-                        <iframe src={props.res.video} frameborder="0" allow="accelerometer; autoplay; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
                         <ButtonChuckTop />
                 </>
         )

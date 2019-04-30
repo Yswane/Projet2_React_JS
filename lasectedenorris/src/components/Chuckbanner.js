@@ -15,7 +15,7 @@ class Chuckbanner extends Component {
     return (
         
       <div className="banner1">
-      <div className="pic_of_chuck1">
+      <div className="pic_of_chuck2">
       <img src="https://image.noelshack.com/fichiers/2019/14/2/1554217990-chuck1.png" alt="picture_chuck"></img>
       </div> 
       <div className="text_ban1">
