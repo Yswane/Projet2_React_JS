@@ -9,61 +9,51 @@ import './ApiQuotesChuck.css';
 
 
 class ApiQuotesChuck extends Component {
-
-  constructor(props) {
-
-    super(props);
-
-    this.state = {
-
+    state = {
       items: []
-
-      
-
     };
 
-  }
+// le texte 'origine n'est pas propre, alors on le corrige.
+nettoyage = (a) => {
+  a = a.replace(/&egrave;/gi, "è");
+  a = a.replace(/&ecirc;/gi, "ê");
+  a = a.replace(/&eacute;/gi, "é");
+  a = a.replace(/&euml;/gi, "ë");
+  a = a.replace(/&agrave;/gi, "à");
+  a = a.replace(/&icirc;/gi, "î");
+  a = a.replace(/&iuml;/gi, "ï");
+  a = a.replace(/&#039;/gi, "'");
+  a = a.replace(/&quot;/gi, '"');
+  a = a.replace(/&deg;/gi, "°");
+  a = a.replace(/&ccedil;/gi, "ç");
+  a = a.replace(/&acirc;/gi, "â");
+  a = a.replace(/&laquo;/gi, "«");
+  a = a.replace(/&raquo;/gi, "»");
+  a = a.replace(/&ugrave; /gi, "ù");
+return a;
+}
 
   handleClick = () => {
-
     this.randomChuckFact()
-
   }
-
-
 
   randomChuckFact = () =>{
-
     const proxyurl = "https://cors-anywhere.herokuapp.com/"
-
     const url = 'https://www.chucknorrisfacts.fr/api/get?data=tri:alea;nb:1'
-
-    fetch(proxyurl + url)
-
-    .then(res => res.json())
-
-    .then(res => {
-
-    this.setState({
-
-      items: res
-
-    });
-
-  })
-
-  }
-
-
+      fetch(proxyurl + url)
+      .then(res => res.json())
+      .then(res => (this.nettoyage(res[0].fact)))
+      .then(res => {    
+        this.setState({
+          items: res
+        })
+      })
+    }
 
   componentDidMount() {
-
     this.randomChuckFact()
-
   }
-
            
-
   render() {
 
     const { items } = this.state
@@ -78,15 +68,9 @@ class ApiQuotesChuck extends Component {
 
         </div>
 
-      {items.map(item => (
-
-        <div className="ApiFact" key={item.id}>
-
-        <p>{item.fact}</p> 
-
+        <div className="ApiFact">
+        {items} 
         </div>
-
-      ))}
 
       <div className="DivApiImage">
 
