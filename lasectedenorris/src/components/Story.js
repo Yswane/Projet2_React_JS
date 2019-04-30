@@ -9,7 +9,7 @@ const Story = (props) => {
         return (
                 <>
                         <div>
-                                <p>{props.res.id}</p>
+                                {/* <p>{props.res.id}</p> */}
                                 <p>{props.res.Quest}</p>
                                 <img src={props.res.image}></img>
 

@@ -9,8 +9,6 @@ const ButtonGame3 = (props) => {
             <a href="javascript:void" onClick={props.handleChangeData}>
                 <p>{props.res.rep3.text}</p>
             </a>
-
-            <ButtonChuckTop />
         </>
     )
 }
