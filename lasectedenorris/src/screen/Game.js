@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css'
 import './Game.css'
-
 import Story from '../components/Story'
 import ButtonChuckTop from '../components/ButtonChuckTop'
 
@@ -46,16 +45,26 @@ ChangeGameRetry = () => {
     this.setState({ data: quizz[0]})
 }
 
+
+Invisible = () => {
+    let u = this.state.data
+    let textRep = u.rep1.text
+    console.log(textRep)
+
+}
+
     render() {
         return (
             <>
                 <title>Page Game</title>
                 <body>
                     <Story res={this.state.data} />
-
+                    
+                    <div className="box-button">
                     <ButtonGame1 res={this.state.data} handleChangeData={this.ChangeStory1} />
                     <ButtonGame2 res={this.state.data} handleChangeData={this.ChangeStory2} />
                     <ButtonGame3 res={this.state.data} handleChangeData={this.ChangeStory3} />
+                    </div>
                     <GameRetry handleChangeRetry={this.ChangeGameRetry}/>
 
                     <ButtonChuckTop />
