@@ -109,3 +109,22 @@ text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #
     text-shadow: 4px 4px 4px black;
     /* text-shadow: 0.1px 0 0 #fff, -2px 0 0 #fff, 0 1px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; */
 }
+
+@media screen and (max-width: 768px) {
+  section.Introduction{
+    margin-top: -10%;
+  }
+  section.BannerGame{
+    margin-top: 110%;
+  }
+  section.BannerChuck{
+    margin-top:-40%;
+  }
+  section.BannerChuck{
+    margin-top:-40%;
+  }
+  section.BannerStore{
+    margin-top: -65%;
+    margin-bottom:110%;
+  }
+}

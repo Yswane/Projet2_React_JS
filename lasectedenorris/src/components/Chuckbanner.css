@@ -57,11 +57,14 @@
           display:flex;
           flex-wrap: wrap;
           margin: 0 auto;
+          margin-top: 20%;
+    
           
         }
     
         .button-primary1{
             margin-bottom: 2%;
+
         }
       }
     

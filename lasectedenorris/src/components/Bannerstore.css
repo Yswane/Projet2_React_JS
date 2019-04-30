@@ -38,7 +38,7 @@
     display: flex;
     justify-content: space-between;
     padding: 1%;
-    width: 42%;
+    width: 30%;
     margin: auto;
     color: white;
     font-style: normal;
@@ -63,15 +63,25 @@
      */
 @media screen and (max-width: 768px) {
     .banner_store{
-        padding-bottom: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
         margin-left: 19vw;
         margin-right: 15vw;
+        margin-top: 40%;
         border-radius: 3% 3% 3% 3%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 90vh;
+
         }
     .text_ban_store p{
         max-width: 55vw;
-        padding-top: 2vh;
+        padding-top: 1vh;
         padding-right:1vw;
+        margin-bottom: 10%;
+
 
     }
     .loremchuck {
@@ -86,7 +96,5 @@
         font-weight: 500;
         font-size: 1.4em;
         }
-    .dollars {
-        max-height: 5vh;
-    }
+
     }

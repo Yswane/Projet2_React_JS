@@ -1,128 +1,114 @@
 section.BannerGame {
     margin-bottom: 10%;;
-}
-
-.home-game-banner-bg{
+ }
+ .home-game-banner-bg{
     position: absolute;
-    /* background-image:url("https://image.noelshack.com/fichiers/2019/14/3/1554301827-bg-gamer-brown.jpg"); */
+    /* background-image:url("https://image.noelshack.com/fichiers/2019/14/3/1554301827-bg-gamer-brown.jpg(214 kB)
+ https://image.noelshack.com/fichiers/2019/14/3/1554301827-bg-gamer-brown.jpg
+ "); */
     height: 40vh;
     opacity: 0.9;
     z-index: 0;
     width: 100%;
     text-align: center;
   }
-
-.Chuck-small-fellow{
-
+ .Chuck-small-fellow{
     display: flex;
     margin-left: 25%;
     z-index: 2;
     height: 40vh;
-    
-}
-
-.Title-banner-game{
-    position: absolute;
+ }
+ .Title-banner-game{
     display: flex;
     margin-left: 35%;
-    margin-top: -17%;
+    margin-top: -16%;
     z-index: 2;
-}
-
-.home-game-banner-span{
-    position: absolute;
+ }
+ .home-game-banner-span{
     display: flex;
     text-align: center;
     text-justify: center;
     margin-left: 35%;
-    margin-top: -11%;
+    margin-top: 2%;
     font-size: 4vh;
     color: antiquewhite;
     z-index: 2;
-}
-
-.banner-game-hover{ 
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    right: 0; 
-    bottom: 0; 
-    background: rgba(146, 76, 36, 0.9); 
-    visibility: hidden; 
-    opacity: 0; 
-    -webkit-transition: .3s all ease; 
-    -o-transition: .3s all ease; 
-    transition: .3s all ease; 
-}
-
-.banner-game-hover .banner-game-inner{ 
-    position: absolute; 
-    z-index: 99; 
-    left: 50%; 
-    top: 50%; 
-    visibility: hidden; 
-    opacity: 0; 
-    -webkit-transition: .3s all ease; 
-    -o-transition: .3s all ease; 
-    transition: .3s all ease; 
-    -webkit-transform: translate(-50%, -50%); 
-    -ms-transform: translate(-50%, -50%); 
-    transform: translate(-50%, -50%); 
-    transition: .3s all ease; 
-    text-align: center; 
-}
-
-.banner-game-hover .banner-game-inner h2 { 
-    color: #fff; 
+ }
+ .banner-game-hover{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(146, 76, 36, 0.9);
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+ }
+ .banner-game-hover .banner-game-inner{
+    position: absolute;
+    z-index: 99;
+    left: 50%;
+    top: 50%;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: .3s all ease;
+    text-align: center;
+ }
+ .banner-game-hover .banner-game-inner h2 {
+    color: #fff;
     font-size: 26px;
-    line-height: 1.2; 
+    line-height: 1.2;
     font-style: italic;
-    -webkit-transition: .3s all ease; 
-    -o-transition: .3s all ease; 
-    transition: .3s all ease; 
-    opacity: 0; 
-    visibility: hidden; 
-    position: relative; 
-    bottom: -10%; 
-}
-
-.banner-game-hover, hover{ 
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    opacity: 0;
+    visibility: hidden;
+    position: relative;
+    bottom: -10%;
+ }
+ .banner-game-hover, hover{
     color: rgba(255, 255, 255, 0.8);
     font-size: 50px;
-    opacity: 0; 
+    opacity: 0;
     position: relative;
-    -webkit-transition: .5s all ease; 
-    -o-transition: .5s all ease; 
+    -webkit-transition: .5s all ease;
+    -o-transition: .5s all ease;
     transition: .5s all ease;
     width: 100%;
     height: 40vh;
-}
-
-.banner-game:hover .banner-game-hover { 
-    visibility: visible; 
-    opacity: 1; 
-}
-
-.banner-game:hover .banner-game-hover .banner-game-hover-inner, .banner-game-hover-inner,.banner-game-hover-inner{ 
-    visibility: visible; 
-    opacity: 1; 
-    -webkit-animation-delay: 10s; 
-    animation-delay: 10s; 
-}
-
-.banner-game:hover .banner-game-hover .banner-game-hover-inner h2 { 
-    opacity: 1; 
-    visibility: visible; 
+ }
+ .banner-game:hover .banner-game-hover {
+    visibility: visible;
+    opacity: 1;
+ }
+ .banner-game:hover .banner-game-hover .banner-game-hover-inner, .banner-game-hover-inner,.banner-game-hover-inner{
+    visibility: visible;
+    opacity: 1;
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+ }
+ .banner-game:hover .banner-game-hover .banner-game-hover-inner h2 {
+    opacity: 1;
+    visibility: visible;
     bottom: 0px;
     text-align:center;
-}
-
-.banner-game-button{
-    border: 2px solid rgba(255, 255, 255, 0.8);
+ }
+ .banner-game-button{
+    border: 3px solid white;
     border-radius: 8px;
     display: inline-block;
     padding: 7px 30px 6px;
     color: white;
+    /* font-family: 'Poppins', sans-serif; */
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -131,33 +117,29 @@ section.BannerGame {
     line-height: 1;
     text-decoration: none;
     text-transform: uppercase;
-    text-align: center;
-    margin-left: 45%;
-    margin-bottom: 5%;
-}
-
-
-@media screen and (max-width: 768px) {
+    align-items: center;
+    margin-bottom: 2%;
+ }
+ @media screen and (max-width: 768px) {
     .home-game-banner-span {
         font-size: 3vh;
         display: flex;
         text-align: center;
         text-justify: center;
-        margin-left: 42vw;
-        margin-top: -18vh;
+        margin-left: 48vw;
+        margin-top: 4%;
         width: 35vw;
     }
     .Title-banner-game{
         display: flex;
         margin-left: 42vw;
         margin-top: -30vh;
-        width:38vw;
+        width:53vw;
     }
     .Chuck-small-fellow{
-
         display: flex;
         height: 35vh;
-        
+        margin-left: 15vw;
     }
-
-}
+ }
+ 
