@@ -1,19 +1,22 @@
 .illus{
-    width: 25vw;
-    height: auto;
+    height: 25rem;
+    max-width: 150rem;
     margin: auto;
     /* border: 4px solid #774a02;
     border-radius: 10px 10px 10px 10px; */
 }
 .container-quizz{
-    margin: 0% 20%;
+    margin: 0% 5%;
     padding: 2%;
 }
 .box-question {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     margin-bottom:-10%;
+    max-width: 70vw;
+    min-width:40vw;
+   
 }
 .box-button{
     display: flex;
@@ -43,6 +46,7 @@
     /* border: 1px solid black; */
     /* border-radius: 5px 5px 5px 5px; */
     width: 100%;
+    height:100%;
     text-align: center;
     /* background-color: white; */
    
@@ -50,12 +54,9 @@
     margin-top: 10%;
     text-shadow: 5px 5px 20px aliceblue ;
     font-weight: bold;
-    
 }
 .video-quizz {
     height:40vh;
-    
-
 }
 
 @media (max-width:768px) {

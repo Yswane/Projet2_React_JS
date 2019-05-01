@@ -44,7 +44,6 @@ ChangeGameRetry = () => {
     this.setState({ data: quizz[0]})
 }
 
-
 Invisible = () => {
     let u = this.state.data
     let textRep = u.rep1.text
