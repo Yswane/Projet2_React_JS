@@ -48,13 +48,17 @@ class Shop extends Component {
         this.setState({ products: products[5] })
     }
 
-
+componentDidMount(){
+    setTimeout(() => {
+      const guy = document.querySelector('.funnyface')
+      guy.style.background='url()'
+    }, 5600);
+  }
 
     render() {
 
         return (
             <>
-              {/* <div className="passeur"></div> */}
             <div className="contenair-global">
             <div className="contenair-buttons-product">
             
@@ -72,6 +76,7 @@ class Shop extends Component {
 
 
                 <ProductContents article={this.state.products}/>
+                <div className="funnyface"></div>
 
                 <ButtonChuckTop />
             </div>
