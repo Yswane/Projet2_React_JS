@@ -7,8 +7,17 @@ import '../components/Story.css';
 
 
 const Story = (props) => {
+
+    // componentDidMount=()=> {
+    //     setTimeout(() => {
+    //       const jeu = document.querySelector('.muscle')
+    //       jeu.style.background='url()'
+    //     }, 10000);
+    //   }
+    
         return (
                 <>
+                <div className="muscle"></div>
                         <div className="container-quizz">
                             <div className="box-question">
 

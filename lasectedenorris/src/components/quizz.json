@@ -137,7 +137,7 @@
     {
         "id": 16,
         "Quest":"RIP tu lui tires dessus de nombreuses fois mais la peau de Chuck est dur comme du fer et rien ne le blesse. Quand il te reste une seule balle tu décides de te suicider !",
-        "image":" https://previews.123rf.com/images/marcoprati/marcoprati1308/marcoprati130800013/21706593-man-pointing-a-gun-to-his-head.jpg",
+        "image":"https://image.noelshack.com/fichiers/2019/18/4/1556792026-suicide-chuck.png",
         "video": "",
         "rep1" : { "id": 0, "text": ""},
         "rep2" : {"id": 0, "text": ""},
@@ -299,7 +299,7 @@
     {
         "id":34,
         "Quest":"RIP le boutton ne fonctionne pas : le programme qui te maintiens en vie surchauffe, il a été codé en angular la piece s'enflamme tu meurs brulé vif . PS: tu es la seule victime de cet incendie",
-        "image":"http://image.noelshack.com/fichiers/2019/18/1/1556553106-chuckvsangular.jpg",
+        "image":"https://image.noelshack.com/fichiers/2019/18/4/1556791985-angular-vs-chuck-react.png",
         "video": "",
         "rep1" : { "id": 0, "text": ""},
         "rep2" : {"id": 0, "text": ""},

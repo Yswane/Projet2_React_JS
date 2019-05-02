@@ -5,6 +5,16 @@
     /* border: 4px solid #774a02;
     border-radius: 10px 10px 10px 10px; */
 }
+.muscle {
+    background: url(https://media.giphy.com/media/1Be2cr9egGgvxtoudp/giphy.gif);
+    background-repeat: no-repeat;
+    height: 50%;
+    width:50%;
+    top: 400px;
+    left:900px;
+    position: absolute;
+
+}
 .container-quizz{
     margin: 0% 5%;
     padding: 2%;
