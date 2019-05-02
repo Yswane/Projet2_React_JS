@@ -1,7 +1,7 @@
 .ApiFact {
     position: absolute;
-    top: 68%;
-    left: 50%;
+    top: 75%;
+    left: 46%;
     width: 64%;
     z-index: 1;
     text-align: center;
@@ -17,6 +17,7 @@
 
 .ImagesChuckApi {
     width: 40%;
+    margin-top: 5%;
 }
 
 .DivApiImage {
