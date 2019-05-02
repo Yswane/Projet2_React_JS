@@ -1,21 +1,15 @@
-
 .main-nav-container {
 	text-align: center;
 }
-.Main-nav {
+.main-nav-container .Main-nav {
 	display: inline-flex;
 	justify-content: center;
-	margin-top: -10%;
+	margin-top: -5%;
 	/* font-family: 'Bener', normal; */
 	/* font-style: italic; */
 	/* font-weight: bold; */
 	color:white;
 	font-size: 1.5vh;
-	
-}
-
-.haut {
-	margin-bottom: 10%;
 }
 
  
@@ -52,17 +46,18 @@ color:white;
  padding-bottom: 1em;
  background: url(https://images.unsplash.com/photo-1533631273148-264f2ec26448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1778&q=80);
  background-repeat: repeat;
- height: 52vh;
-
+ height: 100%;
 -webkit-filter: opacity(.9) drop-shadow(2px 2px 2px black);
 filter: opacity(.9) drop-shadow(2px 2px 2px black);
-
 }
 
 .Main-nav li {
 	padding: 10px;
-
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 378e80f39314639ab12573c1a9900b9760cb76ab
 .Main-nav .LiImageChuck img {
  width: 100%;
  animation: ImageChuck-spin infinite 35s linear;
@@ -83,7 +78,7 @@ li.LiImageChuck2 {
 }
 
 div.Image-logo img {
- width: 30%;
+ width: 150%;
  transform: rotate(-22deg);
  padding-top: 1%;
  margin-left: 10%;
@@ -94,7 +89,7 @@ div.Image-logo img {
 }
 
 div.Image-logo{
- width: 500px;
+ width: 10%;
  margin-bottom: 2%;
 }
 
@@ -120,29 +115,28 @@ div.Image-logo{
 ==================================== */
 
 @media screen and (max-width: 414px) {
- .Main-nav {
+	.main-nav-container .Main-nav {
 	font-size: 11px;
 	flex-direction: column;
-	margin-right: 30px;
 }
  .LiImageChuck {
 	width: 95%;
 }
- .Main-nav li img{
+ .Main-nav .LiImageChuck img{
 	width: 25%;
-	margin-top: 0px;
+	margin-top: 0;
+	margin-left: 4%;
+	margin-bottom: -2%
 } 
 div.Image-logo img {
-	width: 10%;
-	margin-left: 3%;
+	width: 150%;
+	margin-left: 6%;
 }
-div.Image-logo{
-	width: 180%;
-   }
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-	.Main-nav {
+	.main-nav-container .Main-nav {
 		font-size: 11px;
 	}
 
@@ -150,18 +144,16 @@ div.Image-logo{
   		 width: 15%;
 	}
 
-	.Main-nav li img{
+	.Main-nav .LiImageChuck img{
 		width: 90%;
 		margin-top: -30px;
 	} 
 	
 	div.Image-logo img {
-		width: 15%;
-		margin-left: 4%;
+		width: 150%;
+		margin-left: 6%;
 	}
-	div.Image-logo{
-		width: 180%;
-	   }
+	
 	}
 	
 	

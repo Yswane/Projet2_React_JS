@@ -51,7 +51,7 @@ class Chuck extends Component {
                     </section>
                
                     <div className="button_movie">
-                    <a href="/Filmography" Target="_blank" className="button-primary2" title="Learn More"><Link to="/Chuck" />Ma Filmographie<span className="icon-play"><i className="fas fa-chevron-circle-right"></i></span></a>
+                    <a href="/Filmography"  className="button-primary2" title="Learn More"><Link to="/Chuck" />Ma Filmographie<span className="icon-play"><i className="fas fa-chevron-circle-right"></i></span></a>
                     </div> 
                 
                 </div>
