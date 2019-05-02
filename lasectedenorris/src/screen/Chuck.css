@@ -1,12 +1,18 @@
 .bodyChuckpage{
     /* background: #a1663f; */
     /* background: url('https://images.unsplash.com/photo-1519606247872-0440aae9b827?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); */
-    background: url('https://image.noelshack.com/fichiers/2019/17/5/1556266898-bois-chuck2.jpg');
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+        ), url('http://www.promhaies.net/wp-content/uploads/2016/05/wood-1119305.jpg');
+    /* background: url('https://image.noelshack.com/fichiers/2019/17/5/1556266898-bois-chuck2.jpg'); */
+    background-size: cover;
+    
 }
 
 
 .sectionGrid{   
-    background: url('https://image.noelshack.com/fichiers/2019/17/5/1556266898-bois-chuck2.jpg');
+    /* background: url('https://image.noelshack.com/fichiers/2019/17/5/1556266898-bois-chuck2.jpg'); */
     /* background: #a1663f; */
     margin-top:10%;
 }
