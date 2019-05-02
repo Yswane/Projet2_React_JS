@@ -54,10 +54,6 @@ filter: opacity(.9) drop-shadow(2px 2px 2px black);
 .Main-nav li {
 	padding: 10px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 378e80f39314639ab12573c1a9900b9760cb76ab
 .Main-nav .LiImageChuck img {
  width: 100%;
  animation: ImageChuck-spin infinite 35s linear;
@@ -95,10 +91,18 @@ div.Image-logo{
 
 .passeur {
 	background: url(https://media.giphy.com/media/ZwCYo2zk33gWGrdCgH/giphy-downsized.gif); 
-	height: 450px;
 	background-repeat: no-repeat;
+	height:100%;
+	width:100%;
+	position: absolute;
+	top: 300px;
+	left:100px;
 }
 
+.passeur.img {
+	width:50%;
+	z-index: 10;
+}
 @keyframes ImageChuck-spin {
  from {
 	 transform: rotate(0deg);

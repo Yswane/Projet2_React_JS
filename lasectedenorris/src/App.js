@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
 
-
 import Chuck from './screen/Chuck';
 import VideoHome from './screen/VideoHome'
 import Home from './screen/Home';
@@ -36,7 +35,6 @@ class App extends Component {
   <header id="haut">
   <Button_Chuck_Top />
     <ChuckBar gunSound={this.play} />
-      
   </header>
         
 
@@ -46,7 +44,6 @@ class App extends Component {
           <Route path="/shop" component={Shop} />
           <Route path="/chuck" component={Chuck} />
           <Route path="/game" component={Game} />
-          {/* <Route path="/games/:id" component={Quiz} /> */}
           <Route path="/filmography" component={Filmchuck} />
         </Switch>
 

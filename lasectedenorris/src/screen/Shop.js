@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import '../components/buttonShopHover.css'
 import './Shop.css'
+// import '../components/ChuckBar.css'
 // import '../Style.css'
 
 
@@ -53,6 +54,7 @@ class Shop extends Component {
 
         return (
             <>
+              {/* <div className="passeur"></div> */}
             <div className="contenair-global">
             <div className="contenair-buttons-product">
             
