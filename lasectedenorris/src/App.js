@@ -9,7 +9,7 @@ import Home from './screen/Home';
 import Shop from './screen/Shop';
 import Game from './screen/Game';
 // import Filmography from './screen/Filmography';
-import Button_Chuck_Top from './components/ButtonChuckTop';
+import ButtonChuckTop from './components/ButtonChuckTop';
 
 import ChuckBar from "./components/ChuckBar"
 import Footer from "./components/Footer";
@@ -34,7 +34,7 @@ class App extends Component {
     return (
       <div>
   <header id="haut">
-  <Button_Chuck_Top />
+  <ButtonChuckTop />
     <ChuckBar gunSound={this.play} />
       
   </header>

@@ -28,4 +28,4 @@ class Bannerstore extends Component {
 export default Bannerstore;
 
 
-{/* <img className="dollars" src="https://cdn.pixabay.com/photo/2016/10/25/18/49/money-1769716__340.png" alt="dollars" /> */}
+/* <img className="dollars" src="https://cdn.pixabay.com/photo/2016/10/25/18/49/money-1769716__340.png" alt="dollars" /> */
