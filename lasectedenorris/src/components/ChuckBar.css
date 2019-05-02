@@ -12,7 +12,7 @@
 	font-size: 1.5vh;
 }
 
-
+ 
 .Main-nav a {
  text-transform: uppercase;
  color:rgb(78, 47, 35);
@@ -54,7 +54,10 @@ filter: opacity(.9) drop-shadow(2px 2px 2px black);
 .Main-nav li {
 	padding: 10px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 378e80f39314639ab12573c1a9900b9760cb76ab
 .Main-nav .LiImageChuck img {
  width: 100%;
  animation: ImageChuck-spin infinite 35s linear;

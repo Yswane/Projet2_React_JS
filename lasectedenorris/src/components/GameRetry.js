@@ -8,7 +8,7 @@ const GameRetry = (props) => {
         <>
             <div className="retryMode">
                 <button className="retry" href="javascript:void" onClick={props.handleChangeRetry}>
-                Ressusciter 
+                Ressusciter  
                 </button>
             </div>
         </>
