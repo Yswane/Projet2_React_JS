@@ -56,7 +56,7 @@
     {
         "id": 7,
         "Quest":"Au réveil Chuck sait, car Chuck est quasi omniscient. Il te demande 'Qu'est-ce à dire que ceci ?!' ",
-        "image": "https://i.imgur.com/Okf1mFb.gif",
+        "image": "https://media.giphy.com/media/3oEduG3CBCkXpogB7q/giphy.gif",
         "video": "",
         "rep1" : { "id": 23, "text": "Tu mens et accuses le patron du bar."},
         "rep2" : {"id": 30, "text": "Tu assumes ton geste, ça te fait bien rire et espère que Chuck ne vas pas te tuer sur le champs"},
@@ -201,7 +201,7 @@
         "id":23,
         "Quest":"WIN Chuck s'en va crever les yeux du barman et pour te remercier de la délation il t'offre sa paire de santiag encore sanguinolantes. Je crois qu'on peut vraiment dire que vous êtes devenus amis.",
         "image":"https://memegenerator.net/img/instances/44970559/well-played.jpg",
-        "video": "",
+        "video": "https://files.slack.com/files-pri/T6SG2QGG2-FJ9SQE70C/animated-money-falling.gif",
         "rep1" : { "id": 0, "text": ""},
         "rep2" : {"id": 0, "text": ""},
         "rep3" : {"id": 0, "text": ""}
@@ -236,7 +236,7 @@
     {
         "id": 27,
         "Quest": "RIP : Sans le vouloir Chuck t'as explosé la main, le cartilage de tes doigts est remonté jusque dans ton coeur ce qui à provoqué une mort fugace mais douloureuse.",
-        "image": "http://www.przychodniaojcapio.pl/sites/default/files/field/image/heart_attack.png",
+        "image": "https://media.giphy.com/media/vjGyYSsF765wc/giphy-downsized.gif",
         "video": "",
         "rep1" : { "id": 0, "text": ""},
         "rep2" : {"id": 0, "text": ""},
