@@ -4,18 +4,8 @@ import { NavLink } from 'react-router-dom';
 
 
 class ChuckBar extends Component {
-  
-
-
-  componentDidMount(){
-    setTimeout(() => {
-      const gars = document.querySelector('.passeur')
-      gars.style.background='url()'
-    }, 4500);
-  }
-
   render() {
-     return (
+    return (
     <>
         
         <header className="NavBarStart">
@@ -32,8 +22,6 @@ class ChuckBar extends Component {
 
             </ul>
           </div>
-         <div className="passeur"></div>
-          
         </header>
     </>
     )
