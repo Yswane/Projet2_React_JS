@@ -54,25 +54,26 @@ Invisible = () => {
 
     render() {
         return (
-            <>
+            <div className='bodyGame'>
                 <title>Page Game</title>
                 
                    
-            
+              
                     <Story res={this.state.data} />
                    
-                    
+                
                     <div className="box-button">
                     <ButtonGame1 res={this.state.data} handleChangeData={this.ChangeStory1} />
                     <ButtonGame2 res={this.state.data} handleChangeData={this.ChangeStory2} />
                     <ButtonGame3 res={this.state.data} handleChangeData={this.ChangeStory3} />
                     </div> 
+                
                     <GameRetry handleChangeRetry={this.ChangeGameRetry}/>
 
                     
                     <ButtonChuckTop />
             
-            </>
+            </div>
         );
     }
 }

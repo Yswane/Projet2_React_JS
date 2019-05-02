@@ -1,7 +1,7 @@
 .retryMode {
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 5%;
+
     margin-top: 5%;
    
 }
@@ -11,6 +11,7 @@
     color:white;
     font-weight: bold;
     border-radius: 5%;
+    margin-bottom:5%;
     font-family: "PermanentMarker";
     
 }
