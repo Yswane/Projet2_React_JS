@@ -98,6 +98,12 @@ div.Image-logo{
  margin-bottom: 2%;
 }
 
+.passeur {
+	background: url(https://media.giphy.com/media/ZwCYo2zk33gWGrdCgH/giphy-downsized.gif); 
+	height: 450px;
+	background-repeat: no-repeat;
+}
+
 @keyframes ImageChuck-spin {
  from {
 	 transform: rotate(0deg);
@@ -106,6 +112,7 @@ div.Image-logo{
 	 transform: rotate(360deg);
  }
  }
+
  
 
 /* ================================= 
