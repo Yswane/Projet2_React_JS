@@ -66,6 +66,7 @@
     .illus{
         width: 100%;
         height: auto;
+        margin-top: 40%;
         
     }
 
@@ -97,7 +98,8 @@
     }
     .video-quizz {
         margin-top: 10%;
-        height: auto;
+        height: 50vh;
         width: 74vw;
+        margin: 0 auto;
     }
 }
