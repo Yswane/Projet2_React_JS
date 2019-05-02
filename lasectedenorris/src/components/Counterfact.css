@@ -23,7 +23,7 @@
 
 
 div.Counterfact-title {
-    margin-left: 180px;
+    text-align: center;
 }
 
 
@@ -68,4 +68,13 @@ div.Counterfact-title {
 .factbox1{
     grid-column :1;
     grid-row: 1/4;
+}
+
+@media (max-width:767px){
+    
+    .Counterfact-title {
+        text-align: center;
+        margin-top: 20%;
+    }
+
 }

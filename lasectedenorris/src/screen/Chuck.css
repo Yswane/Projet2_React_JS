@@ -94,8 +94,12 @@
         margin-bottom: 2%;
     
     }
-
-
+     .separation2{
+        display: none;
+    }
+    .separation1{
+        display: none;
+    }
 
     
   }

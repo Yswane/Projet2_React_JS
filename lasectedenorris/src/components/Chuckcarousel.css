@@ -1,8 +1,7 @@
 div#slider { 
     width: 80%; max-width: 500px;
     border: 4px solid white;
-    margin-top: 11%;
-    margin-left: 6%;;
+    
     /* margin-left: 5%; */
  }
 
@@ -53,7 +52,13 @@ div#slider {
         text-align: left;
         animation: 30s slidy infinite;
       }
+ 
+      @media (max-width: 768px) {
 
+        div#slider{
+            margin: auto;
+        }
+      }
       
 
 /* .slider{
