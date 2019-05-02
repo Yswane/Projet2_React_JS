@@ -90,6 +90,15 @@ div.Image-logo{
  margin-bottom: 2%;
 }
 
+.passeur {
+		background: url(https://media.giphy.com/media/ZwCYo2zk33gWGrdCgH/giphy.gif);
+		background-repeat: no-repeat;
+		height:70%;
+		width:50%;
+		position: absolute;
+		top: 300px;
+		left:80px;
+	}
 @keyframes ImageChuck-spin {
  from {
 	 transform: rotate(0deg);
