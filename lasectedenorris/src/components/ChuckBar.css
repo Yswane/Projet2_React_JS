@@ -1,23 +1,33 @@
+
 .main-nav-container {
 	text-align: center;
 }
 .Main-nav {
 	display: inline-flex;
 	justify-content: center;
+	margin-top: -10%;
+	/* font-family: 'Bener', normal; */
+	/* font-style: italic; */
+	/* font-weight: bold; */
+	color:white;
+	font-size: 1.5vh;
 	
 }
  
 .Main-nav a {
  text-transform: uppercase;
+ color:rgb(78, 47, 35);
 }
 
 .Main-nav a {
- color: white;
+color:white;
  font-size: 1.25em;
+ text-shadow: 4px 4px 4px black;
+ /* text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; */
 }
 
 .Main-nav a:hover {
- color: yellow;
+	color:rgb(158, 150, 147);
 }
 
 .Main-nav img:hover {
@@ -33,19 +43,38 @@
 }
 
 .NavBarStart {
- padding-top: .5em;
- padding-bottom: 5em;
+ padding-top: 1em;
+ padding-bottom: 1em;
  background: url(https://images.unsplash.com/photo-1533631273148-264f2ec26448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1778&q=80);
  background-repeat: repeat;
+ height: 45vh;
+
+-webkit-filter: opacity(.9) drop-shadow(2px 2px 2px black);
+filter: opacity(.9) drop-shadow(2px 2px 2px black);
+
 }
+
+/* .bg-faded {
+	padding-top: -1em;
+	padding-bottom: -1em;
+	background-color:rgba(10, 8, 8, 0.808);
+	z-index: 2;
+	margin-left: -0.05%;
+	margin-right: -0.05%;
+	margin-top: -1%;
+	height: 45vh;
+	border-radius: 30px 30px 0px 0px;
+	
+} */
 
 .Main-nav li {
 	padding: 10px;
+
 }
 .Main-nav li img {
  width: 100%;
  animation: ImageChuck-spin infinite 35s linear;
- margin-top: -80px;
+ margin-top: -50px;
 }
 
 .LiImageChuck {
@@ -55,7 +84,7 @@
 div.Image-logo img {
  width: 30%;
  transform: rotate(-22deg);
- padding-top: 3%;
+ padding-top: 1%;
  margin-left: 10%;
  display: inline-block;
  justify-content: flex-start;

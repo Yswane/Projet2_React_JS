@@ -33,7 +33,7 @@
 
 .image-product {
     border-radius: 30%;
-    box-shadow: 10px 10px 10px rgb(116, 5, 5);
+    /* box-shadow: 10px 10px 10px rgb(94, 94, 114); */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -70,7 +70,7 @@
     font-weight: 300;
     text-shadow: 1px 1px 1px white;
     /* background:orange; */
-    font-size: 150%;
+    font-size: 170%;
     /* padding-bottom: 5%; */
 }
 
@@ -97,6 +97,7 @@
 .ButtonProduct {
     display: block;
     margin-left: 70%;
+    padding-bottom: 5%;
     /* background-color: aquamarine; */
 }
 

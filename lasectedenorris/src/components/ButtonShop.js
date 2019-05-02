@@ -1,16 +1,14 @@
 import React from 'react';
 
-
+import '../components/buttonShopHover.css'
 
 const Button = (props) => {
     return (
-        <>
-
-        
+    <>        
             <div className="row">
                     <div className="col-sm-6">
                         <div className="ih-item circle effect2 left_to_right">
-                        <a  onClick={props.handleChangeProduct}> 
+                        <a href="javascript:void" onClick={props.handleChangeProduct}> 
                         <div className="img">
                         <img src={props.article.image} alt="img" />
                         </div>
@@ -20,8 +18,7 @@ const Button = (props) => {
                         </a>
                         </div>
                     </div>
-                </div>
-        
+                </div>        
         </>
     )
 }

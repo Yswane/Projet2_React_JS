@@ -1,7 +1,9 @@
 footer {
     border: solid 1px black;
     height: 5%;
-    background-color: black;
+    background: black;
+    /* background: url(https://images.unsplash.com/photo-1533631273148-264f2ec26448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1778&q=80); */
+
 }
 
 
@@ -16,21 +18,51 @@ footer {
     list-style-type: none;
     line-height: 40px;
     color: white;
+    margin-left: -60%; 
 }
 
 footer p {
-    font-style: italic;
+    font-family: 'Bener', normal;
     text-align: center;
     font-size: 12px;
-    color: white;
+    color:rgb(78, 47, 35);
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 
 .foot-content a {
-    text-decoration: none
+    text-decoration: none;
+    font-family: 'Bener', normal;
+    font-size: 16px;
+    color:rgb(78, 47, 35);
+    
 }
 
 .icon-footer {
     width: 4vw;
-    margin-left: 5px;
 
+}
+.logo-foot{
+    margin-left: -60%;
+}
+
+@media (max-width:767px) {
+  .foot-content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column
+    }
+    .li-foot{
+        margin: -15% auto;
+        text-align: center;
+    }
+    .icon-footer{
+        width: 15vw;
+        margin-top: 20%;
+
+     
+    }
+    .logo-foot{
+        margin: auto;
+    }
 }

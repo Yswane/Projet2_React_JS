@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import  './Chuckbanner.css';
+import '../Style.css';
 import {Link} from 'react-router-dom';
 
 class Chuckbanner extends Component {

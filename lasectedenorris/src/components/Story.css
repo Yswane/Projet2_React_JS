@@ -1,0 +1,43 @@
+.illus{
+    width: 25vw;
+    height: auto;
+    margin-left: 30%;
+    /* border: 4px solid #774a02;
+    border-radius: 10px 10px 10px 10px; */
+}
+.container-quizz{
+    margin: 0% 20%;
+    padding-bottom: 3%;
+}
+.box-question {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.box-button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.button-quizz {
+    border : 1px solid black;
+    background: url(https://images.unsplash.com/photo-1555611314-7faf2bc62f89?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
+    color: black;
+    font-size: 1.3em;
+    text-decoration: none;
+    max-width: 25%;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    padding: 1%;
+}
+.question {
+    font-size: 2em;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    width: 20rem;
+    text-align: center;
+    background-color: white;
+    opacity: 0.70;
+}
