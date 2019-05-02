@@ -122,13 +122,15 @@ div.Image-logo img {
 	width: 150%;
 	margin-left: 6%;
 }
-.LiImageChuck2 {
-	margin-left: 35%;
+
+li.LiImageChuck2 {
+	margin-left: 120px;
 }
 
 .LiImageChuck2 img{
 	width: 90px;
 }
+
 
 }
 
