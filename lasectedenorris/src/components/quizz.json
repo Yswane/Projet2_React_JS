@@ -65,7 +65,7 @@
     {
         "id": 8,
         "Quest":"Une aura maléfique s'empare de Chuck, le ciel s'assombrit et la foudre tombe. Regrettes tu d'avoir égratigné Chuck avec ton caillou ?",
-        "image":"http://www.noelshack.com/2019-18-1-1556553106-chuckfoudre.jpg",
+        "image":"http://image.noelshack.com/fichiers/2019/18/1/1556553106-chuckfoudre.jpg",
         "video": "",
         "rep1" : { "id": 31, "text": "Oui, pardon messire"},
         "rep2" : {"id": 32, "text": "Non, pas vraiment"},
