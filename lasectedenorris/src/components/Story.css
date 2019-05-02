@@ -66,6 +66,13 @@
     .illus{
         width: 100%;
         height: auto;
+        
+    }
+
+    
+
+    .question{
+        font-size: 1.3rem;
     }
 
 
@@ -76,5 +83,21 @@
     }
     .button-quizz{
         margin: 2% 0%;
+        font-size: 1rem;
+    }
+
+    .box-question{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        
+    
+    }
+    .video-quizz {
+        margin-top: 10%;
+        height: auto;
+        width: 74vw;
     }
 }
