@@ -12,7 +12,7 @@
 	font-size: 1.5vh;
 }
 
- 
+
 .Main-nav a {
  text-transform: uppercase;
  color:rgb(78, 47, 35);
@@ -54,6 +54,7 @@ filter: opacity(.9) drop-shadow(2px 2px 2px black);
 .Main-nav li {
 	padding: 10px;
 }
+
 .Main-nav .LiImageChuck img {
  width: 100%;
  animation: ImageChuck-spin infinite 35s linear;
@@ -89,20 +90,6 @@ div.Image-logo{
  margin-bottom: 2%;
 }
 
-.passeur {
-	background: url(https://media.giphy.com/media/ZwCYo2zk33gWGrdCgH/giphy-downsized.gif); 
-	background-repeat: no-repeat;
-	height:100%;
-	width:100%;
-	position: absolute;
-	top: 300px;
-	left:100px;
-}
-
-.passeur.img {
-	width:50%;
-	z-index: 10;
-}
 @keyframes ImageChuck-spin {
  from {
 	 transform: rotate(0deg);
@@ -111,7 +98,6 @@ div.Image-logo{
 	 transform: rotate(360deg);
  }
  }
-
  
 
 /* ================================= 
@@ -136,6 +122,13 @@ div.Image-logo img {
 	width: 150%;
 	margin-left: 6%;
 }
+.LiImageChuck2 {
+	margin-left: 35%;
+}
+
+.LiImageChuck2 img{
+	width: 90px;
+}
 
 }
 
@@ -154,8 +147,8 @@ div.Image-logo img {
 	} 
 	
 	div.Image-logo img {
-		width: 150%;
-		margin-left: 6%;
+		width: 75%;
+		margin-left: 4%;
 	}
 	
 	}
