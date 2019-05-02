@@ -38,3 +38,15 @@ a#cRetour.cVisible{
   bottom:20px;
   opacity:1;
 }
+
+@media screen and (max-width: 768px) {
+  a#cRetour a#cRetour:before a#cRetour:hover a#cRetour.cInvisible a#cRetour.cVisible{
+  display: none;
+  }
+  .cVisible{
+    display: none;
+    }
+    .cInvisible{
+      display: none;
+      }
+}

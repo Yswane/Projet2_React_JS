@@ -29,7 +29,12 @@ nettoyage = (a) => {
   a = a.replace(/&acirc;/gi, "â");
   a = a.replace(/&laquo;/gi, "«");
   a = a.replace(/&raquo;/gi, "»");
-  a = a.replace(/&ugrave; /gi, "ù");
+  a = a.replace(/&ugrave;/gi, "ù");
+  a = a.replace(/&ocirc;/gi, "ô");
+  a = a.replace(/&ucirc;/gi, "û");
+  a = a.replace(/&ouml;/gi, "ö");
+  a = a.replace(/\?/gi, "'");
+  a = a.replace(/<br \/>/gi, "");
 return a;
 }
 

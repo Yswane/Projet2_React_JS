@@ -3,7 +3,6 @@ import './ChuckBar.css';
 import { NavLink } from 'react-router-dom';
 
 
-
 class ChuckBar extends Component {
   render() {
     return (
