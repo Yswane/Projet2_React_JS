@@ -7,7 +7,7 @@ const ButtonGame3 = (props) => {
     } else {
         return (
             <>    
-                    <a className="button-quizz" href="javascript:void" onClick={props.handleChangeData}>
+                    <a className="button-quizz" href="javascript:void(0);" onClick={props.handleChangeData}>
                         <p>{props.res.rep3.text} </p>
                     </a>
             </>
