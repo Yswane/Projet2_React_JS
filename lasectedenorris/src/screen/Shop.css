@@ -1,0 +1,208 @@
+.contenair-global {
+    padding-top: 2%;
+    /* height: 75vh; */
+    background: url('https://szftlgs.com/wp-content/uploads/data/2018/1/6/free-monument-valley-wallpaper-hd-wallpapers-PIC-WSW1057501.jpg');
+    
+    
+}
+
+.contenair-buttons-product {
+    float: left;
+    /* background: red; */
+    margin-left: 3%;
+    
+
+}
+
+.contenair-buttons-product2 {
+    float: left;
+    /* background: purple; */
+    margin-left: 3%;
+}
+
+
+.contenair-image-product {
+    float: left; 
+    width: 30%;
+    /* background: yellow; */
+    margin-left: 3%;
+    padding-top: 5vh;
+    
+    
+}
+
+.image-product {
+    border-radius: 30%;
+    /* box-shadow: 10px 10px 10px rgb(94, 94, 114); */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+}
+
+
+.titleProduct {
+    text-align: center;
+    /* font-family: 'RioGrande'; */    
+    /* font-family: 'RioGrande2'; */
+    font-family: 'Western';
+    /* text-shadow: 4px 2px 3px gray; */
+    font-size: 60px;
+    /* background: brown; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: .2rem;
+    text-shadow: 1px 2px 1px white;
+
+}
+
+
+.descriptifProduct {
+    font-family: 'Western';
+    display: block;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: .2rem;
+    text-align: center;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px white;
+    /* background:orange; */
+    font-size: 170%;
+    /* padding-bottom: 5%; */
+}
+
+.contenair-text-product {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 39.1vw;
+    /* background: blue; */
+
+}
+
+
+
+.contenair-text-product {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 39vw;
+    /* background: blue; */
+}
+
+
+.ButtonProduct {
+    display: block;
+    margin-left: 70%;
+    padding-bottom: 5%;
+    /* background-color: aquamarine; */
+}
+
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 27px;
+    border: 4px solid #cc815e;
+    border-radius: 43px;
+    background: #c84d16;
+    background: -webkit-gradient(linear, left top, left bottom, from(#c84d16), to(#6a290c));
+    background: -moz-linear-gradient(top, #c84d16, #6a290c);
+    background: linear-gradient(to bottom, #c84d16, #6a290c);
+    -webkit-box-shadow: #f05c1a 0px 0px 40px 0px;
+    -moz-box-shadow: #f05c1a 0px 0px 40px 0px;
+    box-shadow: #f05c1a 0px 0px 40px 0px;
+    text-shadow: #3f1807 1px 1px 1px;
+    font: italic normal bold 34px times new roman;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+    border: 4px solid #ffa87a;
+    background: #f05c1a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f05c1a), to(#7f310e));
+    background: -moz-linear-gradient(top, #f05c1a, #7f310e);
+    background: linear-gradient(to bottom, #f05c1a, #7f310e);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #6a290c;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6a290c), to(#6a290c));
+    background: -moz-linear-gradient(top, #6a290c, #6a290c);
+    background: linear-gradient(to bottom, #6a290c, #6a290c);
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEyElEQVRIia2Va2xTZRjHf+fSrbRbYTh3010YY0Ecg8UoIETJ5APRDAYqfFliMqIJIpcgiSFZREOMH4xRol8MJCgYYzSBqENuMcIYlxmGLhtzA9Z1967b2q7t2p6257x+OGdQjSEu8UmenJw37/n/n///fc77KMwx6isoWFvI6ifmkyuniI1rxOaK8dC4tC//uBi7Ioy+MyJw6UOt8/PNV7/bntlYaMf+vxBc2F34vZgZFiI8JER4WIioV4jRy6Lv2JbeT2pZ98/98pwZhAAtaGUAZnxgy6F8yweVr7/73q8nXnE0pm9X567BgEQIdAMQJqHJjHPJBvXl3frRYPiwb895mgGUucI3rBDbyueHl0naFGS6QE+BHgM9DqkotgUlUnFWZEPbjd4vh2aIKtW5ZD1XREW3n4BZ3sNj06LkNqevc1mkqwXJfY7MhY+APQdSUUjFITlDdmGpMz9w1fjmlvaL8tlm9jUdbDi94/lHG1+rkVZvLJ5eoM2IaE8Av+nB32NtKetddparKmo8rpFy/4azsAhsDkjFTDUCpITv8WNnh76QTm7lcMPeXU04S028RIDkpJuhwUHP9NhQq7t/9OLxNtF6pg+PpTAXKFuaS+UbT7HjxSXUFpcX4Fi3E3TdKkmgjXexcc/pFWo0QRK/G2Tn/YJtOaWUL1xURo1RVpMKNtS9OsTw6Mi98KS35fadiYtHr9B6aZBb+8/z82CIQ++4vPsc2iBIDvPQdci021icS4l628c9ERxAyi4GYTxwRRZmE8uCjNxCyvMeq0A2KlbUTjdu3e412tu7Lqx7P/TSp9c5tHE56wsM/0rQTAJDgqk2ZAVZvTpMT8Q/QXZewCSQhNlbae1nPoRpkAx2yS9nTIUqzTdCsmteD7K2El0zwf3doA2AAmq3l2GfPxTK1vwuMB6AK2ngzKoxEKN38d0YJzxjdlzTC1Q9syZ/E8Y06EkI3QPNDzKkkhhqzCA4FdQGFwe6q8jKBRRThSxM/PtKdPQ+D972KKMaoa86+OhoA7X1dTnH5+dlOtD6IDaBeQAQ9cFIiEkVSPijuImPVWF4weEEuwMkG8hSWoPqiDxw1KgY4yLYtFp5u3yRrVJRk5C4a9prs0xLwEA/oevDeFSA8QjdqGxCFUAE9AikAFk2U5FAAtUFOTmw6klKEEkQCVNlpln4bMZuQ4ePlnAcnwrQ4eV3AUgq5u2kYlajGlZaa4qVkpVYf4ZhgRuQ6oTREVInOjgCGCrA5X7uxDRwuCwAmykTAWSlrSkWUfodLCwCDZLXwOeGZg9fn/2TFqztdI0x7AsTKivAhQ3ENPjbTVtzykBZDuSnkchpCjQQ/RBphUAcrvho2f8TB60STYKETnAihKfMRrUYg4luGBFEFZAjHuxON2QVQeZSkAsAO4gU6JMQvQPTg5AQ0Ozh1IEf2WsYeGcFzs6D1PQUbr2Lat8E9KfwHjjHTv8M8bfWsmtNEbX5fhxqG6jzQLE6mRREkhi3/PQcu8mR5k6+BUJpBj4YOCMxusaD1P8RpevN0+wYmOImYOw+RWuWnWV1VdSuKuHpXCcFGSpyWCPUO0HPD51c7vVyDfDxsOu+rppnP67npCODCv59lMqmObisdDDHiSgDGXP54L/EX5ztNQw3UOoSAAAAAElFTkSuQmCC") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+
+.funnyface {
+    background: url(https://media.giphy.com/media/RcS3c5avPhZGRF2CQl/giphy.gif);
+    background-repeat: no-repeat;
+    height:70%;
+	width:50%;
+	position: absolute;
+	top: 800px;
+	left:500px;
+}
+
+@media screen and (max-width: 768px) {
+    .button {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        padding: 15px 27px;
+        border: 4px solid #cc815e;
+        border-radius: 43px;
+        background: #c84d16;
+        background: -webkit-gradient(linear, left top, left bottom, from(#c84d16), to(#6a290c));
+        background: -moz-linear-gradient(top, #c84d16, #6a290c);
+        background: linear-gradient(to bottom, #c84d16, #6a290c);
+        -webkit-box-shadow: #f05c1a 0px 0px 40px 0px;
+        -moz-box-shadow: #f05c1a 0px 0px 40px 0px;
+        box-shadow: #f05c1a 0px 0px 40px 0px;
+        text-shadow: #3f1807 1px 1px 1px;
+        font: italic normal bold 34px times new roman;
+        color: #ffffff;
+        text-decoration: none;
+        margin-left: -190%;
+        margin-top:-170%;
+    }
+    
+    .button:hover,
+    .button:focus {
+        border: 4px solid #ffa87a;
+        background: #f05c1a;
+        background: -webkit-gradient(linear, left top, left bottom, from(#f05c1a), to(#7f310e));
+        background: -moz-linear-gradient(top, #f05c1a, #7f310e);
+        background: linear-gradient(to bottom, #f05c1a, #7f310e);
+        color: #ffffff;
+        text-decoration: none;
+        margin-left: -190%;
+    }
+    .contenair-global {
+        padding-top: 2%;
+        /* height: 75vh; */
+        background: url('https://szftlgs.com/wp-content/uploads/data/2018/1/6/free-monument-valley-wallpaper-hd-wallpapers-PIC-WSW1057501.jpg');
+        background-repeat: no-repeat;
+
+    }
+    
+ }
+ 

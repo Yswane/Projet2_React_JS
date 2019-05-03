@@ -1,0 +1,105 @@
+.illus{
+    height: 25rem;
+    max-width: 150rem;
+    margin: auto;
+    /* border: 4px solid #774a02;
+    border-radius: 10px 10px 10px 10px; */
+}
+.container-quizz{
+    margin: 0% 5%;
+    padding: 2%;
+}
+.box-question {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom:-10%;
+    max-width: 100vw;
+    min-width:70vw;
+   
+}
+.box-button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10% 5%;
+
+}
+.button-quizz {
+    border : 1px solid white;
+    background-color:rgb(50, 117, 108);
+    /* background: url(https://images.unsplash.com/photo-1555611314-7faf2bc62f89?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80); */
+    color:white;
+    font-size: 1.6rem;
+    text-decoration: none;
+    width: 100%;
+    margin: 0%  3%; 
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    padding:1%;
+    box-shadow: 13px 26px 22px black;
+    
+}
+.question {
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    /* border: 1px solid black; */
+    /* border-radius: 5px 5px 5px 5px; */
+    width: 100%;
+    height:100%;
+    text-align: center;
+    /* background-color: white; */
+   
+    font-family: 'Staatliches', cursive;
+    margin-top: 10%;
+    text-shadow: 5px 5px 20px aliceblue ;
+    font-weight: bold;
+}
+.video-quizz {
+    margin-top: 10%;
+    height:50vh;
+    width: 40vw;
+}
+
+@media (max-width:768px) {
+
+    .illus{
+        width: 100%;
+        height: auto;
+        margin-top: 40%;
+        
+    }
+
+    
+
+    .question{
+        font-size: 1.3rem;
+    }
+
+
+
+    .box-button{
+        display: flex;
+        flex-direction: column;
+    }
+    .button-quizz{
+        margin: 2% 0%;
+        font-size: 1rem;
+    }
+
+    .box-question{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        
+    
+    }
+    .video-quizz {
+        margin-top: 10%;
+        height: 50vh;
+        width: 74vw;
+        margin: 0 auto;
+    }
+}

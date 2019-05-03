@@ -1,0 +1,85 @@
+.background_video_walker {
+    width: 40%;
+    margin: 0 auto;
+    background-image: url(http://nonstopchucknorris.com/wp-content/themes/chucknorris/dist/img/bg-video.png);
+    height: 490px;
+    background-position-x:50%;
+    background-position-y:50%;
+    
+}
+.video_walkter_texas{
+    text-align:center;
+}
+.video_walker {
+    width:80%;
+    height:40vh;
+    margin-top: 4vh;
+
+}
+
+@media screen and (max-width: 375px) {
+    .video_walker{
+    width:180%;
+    height:40vh;
+    margin-left: -40%
+    }
+    .background_video_walker {
+        width: 40%;
+        margin: 0 auto;
+        height: 490px;
+        background:none;
+        background-position-x:50%;
+        background-position-y:50%;
+        
+    }
+}
+ @media screen and (max-width: 768px) {
+        .video_walker{
+        width:180%;
+        height:40vh;
+        margin-left: -40%
+        }
+        .background_video_walker {
+            width: 40%;
+            margin: 0 auto;
+            height: 490px;
+            background:none;
+            background-position-x:50%;
+            background-position-y:50%;
+            
+        }
+}
+
+@media screen and (max-width: 768px) {
+    .video_walker{
+    width:180%;
+    height:40vh;
+    margin-left: -40%
+    }
+    .background_video_walker {
+        width: 40%;
+        margin: 0 auto;
+        height: 490px;
+        background:none;
+        background-position-x:50%;
+        background-position-y:50%;
+        
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .background_video_walker {
+        width: 80vw;
+        background-image: url(http://nonstopchucknorris.com/wp-content/themes/chucknorris/dist/img/bg-video.png);
+        margin: 0 auto;
+        height: 490px;
+        background-position-x:50%;
+        background-position-y:50%;
+    }
+    .video_walker{
+        padding-top: 3%;
+        width:90%;
+        height:35vh;
+        margin-left: 1%
+        }
+
+}

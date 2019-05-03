@@ -1,0 +1,125 @@
+div#slider { 
+    width: 80%; max-width: 500px;
+    border: 4px solid white;
+    
+    /* margin-left: 5%; */
+ }
+
+ div#slider figure {
+    position: relative; 
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+  }
+
+  div#slider figure img { 
+      width: 20%; 
+      height: auto; 
+      float: left;  
+    
+    }
+
+
+    div#slider { 
+        width: 100%; 
+        max-width: 500px; 
+        overflow: hidden 
+    }
+
+
+    @keyframes slidy {
+        0% { left: 0%; }
+        20% { left: 0%; }
+        25% { left: -100%; }
+        45% { left: -100%; }
+        50% { left: -200%; }
+        70% { left: -200%; }
+        75% { left: -300%; }
+        95% { left: -300%; }
+        100% { left: -300%; }
+      }
+
+
+      div#slider figure {
+        position: relative;
+        width: 500%;
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        left: 0;
+        text-align: left;
+        animation: 30s slidy infinite;
+      }
+ 
+      @media (max-width: 768px) {
+
+        div#slider{
+            margin: auto;
+        }
+      }
+      
+
+/* .slider{
+    width:500px;
+    box-shadow: 2px 2px 5px #AB6543;
+    overflow: hidden;
+    border: 4px solid white;
+
+}
+
+
+.slides{
+    width: calc(500px * 4);
+    animation: glisse 30s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.slide{
+    float: left;
+
+}
+
+.slide img{
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.slide img:hover{
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+@keyframes glisse {
+    0%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-500px);
+    }
+    35%{
+        transform: translateX(-500px);
+    }
+    
+    50%{
+        transform: translateX(-1000px);
+    }
+    60%{
+        transform: translateX(-1000px);
+    }
+    75%{
+        transform: translateX(-1500px);
+    }
+    85%{
+        transform: translateX(-1500px);
+    }
+    100%{
+        transform: translateX(0)
+    }
+} */
