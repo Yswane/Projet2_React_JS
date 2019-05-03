@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Bannerstore from './Bannerstore';
 
+import Tindertroll from './Trolltinder';
+import Bannerstore from './Bannerstore';
 
 class Primary extends Component {
   render() {
@@ -36,6 +37,7 @@ class Primary extends Component {
 {/* Bannière Chuck */}
           <div>
             <h1>Bannière Chuck</h1>
+           
           </div>
           <br />
           <br />
