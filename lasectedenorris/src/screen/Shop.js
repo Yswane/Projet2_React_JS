@@ -48,12 +48,12 @@ class Shop extends Component {
         this.setState({ products: products[5] })
     }
 
-componentDidMount(){
-    setTimeout(() => {
-      const guy = document.querySelector('.funnyface')
-      guy.style.background='url()'
-    }, 5600);
-  }
+// componentDidMount(){
+//     setTimeout(() => {
+//       const guy = document.querySelector('.funnyface')
+//       guy.style.background='url()'
+//     }, 5600);
+//   }
 
     render() {
 

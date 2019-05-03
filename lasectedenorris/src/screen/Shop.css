@@ -152,7 +152,7 @@
     background-size: 100% 100%;
 }
 
-.funnyface {
+/* .funnyface {
     background: url(https://media.giphy.com/media/RcS3c5avPhZGRF2CQl/giphy.gif);
     background-repeat: no-repeat;
     height:70%;
@@ -160,7 +160,7 @@
 	position: absolute;
 	top: 800px;
 	left:500px;
-}
+} */
 
 @media screen and (max-width: 768px) {
     .button {

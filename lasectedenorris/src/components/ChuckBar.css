@@ -113,6 +113,13 @@ div.Image-logo{
  Media Queries
 ==================================== */
 
+
+@media screen and (max-width: 768px) {
+	.passeur {
+		display: none;
+	}
+}
+
 @media screen and (max-width: 414px) {
 	.main-nav-container .Main-nav {
 	font-size: 11px;

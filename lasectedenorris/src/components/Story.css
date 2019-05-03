@@ -10,11 +10,13 @@
     background-repeat: no-repeat;
     height: 50%;
     width:50%;
-    top: 400px;
+    top: 500px;
     left:900px;
     position: absolute;
-
 }
+
+
+
 .container-quizz{
     margin: 0% 5%;
     padding: 2%;
@@ -79,7 +81,9 @@
         margin-top: 40%;
         
     }
-
+.muscle {
+    display: none;
+}
     
 
     .question{
