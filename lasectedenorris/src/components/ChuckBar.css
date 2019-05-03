@@ -139,6 +139,12 @@ li.LiImageChuck2 {
 .LiImageChuck2 img{
 	width: 90px;
 }
+.passeur {
+	height:100%;
+	width:100%;
+	margin-top: 150px;
+	margin-left: -105px;
+}
 
 
 }
