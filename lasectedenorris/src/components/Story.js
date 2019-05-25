@@ -7,35 +7,19 @@ import '../components/Story.css';
 
 
 const Story = (props) => {
-
-    // componentDidMount=()=> {
-    //     setTimeout(() => {
-    //       const jeu = document.querySelector('.muscle')
-    //       jeu.style.background='url()'
-    //     }, 10000);
-    //   }
-    
-        return (
-                <>
-                <div className="muscle"></div>
-                        <div className="container-quizz">
-                            <div className="box-question">
-
-                                <img className="illus" alt='' src={props.res.image}></img>
-                                
-                            <iframe src={props.res.video} frameborder="0" className="video-quizz" title='quizz' allow="accelerometer; autoplay; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        
-                                <p className="question">{props.res.Quest}</p>
-                                </div>
-
-
-                                
-
-                            </div>
-                        
-                        <ButtonChuckTop />
-                </>
-        )
+    return (
+        <>
+            <div className="muscle"></div>
+            <div className="container-quizz">
+                <div className="box-question">
+                    <img className="illus" alt='' src={props.res.image}></img>
+                    <iframe src={props.res.video} frameborder="0" className="video-quizz" title='quizz' allow="accelerometer; autoplay; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p className="question">{props.res.Quest}</p>
+                </div>
+            </div>
+            <ButtonChuckTop />
+        </>
+    )
 }
 
 export default Story;

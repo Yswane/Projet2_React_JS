@@ -11,10 +11,11 @@ const Searcharea = (props) => {
                             <input placeholder="Rechercher Film" type="text" onChange={props.handleChange}/>
                         </div>
                     </form>
-
                 </section>
             </div>
         </div>
     )
 }
- export default Searcharea
+
+
+export default Searcharea

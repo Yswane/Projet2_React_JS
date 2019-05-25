@@ -16,15 +16,16 @@ class Chuck extends Component {
         return (
             <>
                 <title>Page Chuck</title>
-
-
                 <div className="bodyChuckpage">
+
 
                     {/* Contenaire bannière avec bulle API */}
                     <section className="sectionApiQuotes">
                         <div className="separation1"></div>
                         <ApiQuotesChuck />
                     </section>
+
+
                     {/* Contenaire  Top five des blagues */}
                     <section className="sectionCounterfact">
                         <div className="separation2"></div>
@@ -35,6 +36,8 @@ class Chuck extends Component {
                             ))}
                         </div>
                     </section>
+
+
                     {/* Contenaire images/video/gif etc... */}
                     <section className='sectionGrid'>
                         <div className="separation3"></div>
@@ -53,9 +56,7 @@ class Chuck extends Component {
                     <div className="button_movie">
                         <a href="/Filmography" className="button-primary2" title="Learn More"><Link to="/Chuck" />Ma Filmographie<span className="icon-play"><i className="fas fa-chevron-circle-right"></i></span></a>
                     </div>
-
                 </div>
-
             </>
         );
     }

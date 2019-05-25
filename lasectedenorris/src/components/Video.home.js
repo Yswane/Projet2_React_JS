@@ -14,8 +14,3 @@ class VideoHome extends Component {
 }
 
 export default VideoHome
-
-
-/* <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"
-source src="https://chucknorris.com/assets/themes/chuck-norris/videos/chucknorris.mp4" type="video/mp4">
-</video> */

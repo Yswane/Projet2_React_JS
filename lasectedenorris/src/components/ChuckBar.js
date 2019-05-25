@@ -15,8 +15,7 @@ class ChuckBar extends Component {
 
   render() {
     return (
-    <>
-        
+    <>        
         <header className="NavBarStart">
         
           <div className="Image-logo"><img src="https://s100.iracing.com/wp-content/uploads/2016/08/sticker375x360.u2.png" alt="logo de chuck"></img></div>
@@ -28,7 +27,6 @@ class ChuckBar extends Component {
               <li><NavLink onClick={this.props.gunSound} exact to="/Chuck"> Chuck Page </NavLink></li>
               <li><NavLink onClick={this.props.gunSound} exact to="/Game"> Jeu quizz </NavLink></li>
               <li className="LiImageChuck2"> <NavLink onClick={this.props.gunSound} exact to="/filmography"> <img  src="https://image.noelshack.com/fichiers/2019/18/4/1556799052-pistolet-chuck-start-filmo.png" alt=" de chuck"></img></NavLink></li>
-
             </ul>
           </div>
           <div className="passeur"></div>

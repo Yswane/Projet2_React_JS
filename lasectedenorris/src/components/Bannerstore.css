@@ -4,8 +4,7 @@
     background-size: cover;
     justify-content: space-evenly;
     color:white;
-    border:ridge 5px rgb(78, 47, 35);;
-    /* padding-bottom: 2%; */
+    border:ridge 5px rgb(78, 47, 35);
     margin-right:5%;
     margin-left: 5%;
     border-radius: 7% 44% 44% 7%;
@@ -34,7 +33,7 @@
     
 .button_store {
     align-items: center;
-     border: 4px solid white;
+    border: 4px solid white;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -57,11 +56,6 @@
     font-size:70%;
     }
 
-/* .dollars {
-    padding-top: 50px;
-    max-height: 3vh;
-    }
-     */
 @media screen and (max-width: 768px) {
     .banner_store{
         display: flex;
@@ -74,17 +68,19 @@
         flex-direction: column;
         height: 70vh;
         width: 90%;
-
         }
+
     .text_ban_store p{
         max-width: 55vw;
         padding-top: 1vh;
         padding-right:1vw;
     }
+
     .loremchuck {
         font-size: 1.3em;
         margin-top: 25%;
     }
+
     .button_store {
         border-radius: 6px;
         height: 9vh;
@@ -95,13 +91,11 @@
         align-items: center;
         padding: 7px 30px 6px;
         padding:2%;
-        
-
         }
+
     .pic_of_chuck_store img{
         max-width:30vh;
         margin-left: 1%;
         margin-top: -5%;
         }
-
     }

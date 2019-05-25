@@ -44,14 +44,6 @@ ChangeGameRetry = () => {
     this.setState({ data: quizz[0]})
 }
 
-// Invisible = () => {
-    // let u = this.state.data
-    // let textRep = u.rep1.text
-// }
-
-
-
-
     render() {
         return (
             <div className='bodyGame'>
@@ -61,13 +53,9 @@ ChangeGameRetry = () => {
                     <ButtonGame1 res={this.state.data} handleChangeData={this.ChangeStory1} />
                     <ButtonGame2 res={this.state.data} handleChangeData={this.ChangeStory2} />
                     <ButtonGame3 res={this.state.data} handleChangeData={this.ChangeStory3} />
-                    </div> 
-                
-                    <GameRetry handleChangeRetry={this.ChangeGameRetry}/>
-
-                    
-                    <ButtonChuckTop />
-            
+                    </div>                 
+                    <GameRetry handleChangeRetry={this.ChangeGameRetry}/>                    
+                    <ButtonChuckTop />            
             </div>
         );
     }

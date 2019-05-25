@@ -1,10 +1,7 @@
 .retryMode {
     margin: 0 auto;
     text-align: center;
-
     margin-top: 5%;
-
-   
 }
 
 .retry{    
@@ -15,6 +12,5 @@
     font-weight: bold;
     border-radius: 5%;
     margin-bottom:5%;
-    padding-right:1%;
-    
+    padding-right:1%;    
 }

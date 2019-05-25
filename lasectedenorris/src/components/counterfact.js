@@ -5,21 +5,17 @@ import "./Counterfact.css"
 
 class Counter extends Component{
     constructor(props) {
-
         super(props);
-        // On initialise nos deux variables
         this.state = {
             isLiked     : false,
             isDisliked  : false,
             likeCounter: 0,
             dislikeCounter: 0
         }
-
     }
 
     // fonction appelée lors du clic sur l'élément "like"
-    like = () =>
-    {
+    like = () => {
         let likeCounter     = this.state.likeCounter;
         let dislikeCounter  = this.state.dislikeCounter;
     
@@ -63,9 +59,9 @@ class Counter extends Component{
             })
             .catch((error) => {
                 console.error(error);
-            });
-    
+            });    
     }
+
     render() {
 
         // On définit les éléments "upIcon(like) et downIcon(dislike)"
@@ -97,8 +93,7 @@ class Counter extends Component{
         </div>
     </div>
 </div>
-   </> )
-    }
-}
+</> 
+)}}
 
 export default Counter;

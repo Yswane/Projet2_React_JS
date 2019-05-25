@@ -19,9 +19,9 @@
 
 @media screen and (max-width: 375px) {
     .video_walker{
-    width:180%;
-    height:40vh;
-    margin-left: -40%
+        width:180%;
+        height:40vh;
+        margin-left: -40%
     }
     .background_video_walker {
         width: 40%;
@@ -33,11 +33,12 @@
         
     }
 }
- @media screen and (max-width: 768px) {
+
+@media screen and (max-width: 768px) {
         .video_walker{
-        width:180%;
-        height:40vh;
-        margin-left: -40%
+            width:180%;
+            height:40vh;
+            margin-left: -40%
         }
         .background_video_walker {
             width: 40%;
@@ -52,9 +53,9 @@
 
 @media screen and (max-width: 768px) {
     .video_walker{
-    width:180%;
-    height:40vh;
-    margin-left: -40%
+        width:180%;
+        height:40vh;
+        margin-left: -40%
     }
     .background_video_walker {
         width: 40%;
@@ -81,5 +82,4 @@
         height:35vh;
         margin-left: 1%
         }
-
 }

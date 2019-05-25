@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 
 import '../components/buttonShopHover.css'
 import './Shop.css'
-// import '../components/ChuckBar.css'
-// import '../Style.css'
-
 
 import products from '../components/products.json'
 
@@ -12,8 +9,6 @@ import Button from '../components/ButtonShop';
 import ProductContents from '../components/ProductContents';
 import ImageShop from '../components/ImageShop';
 import ButtonChuckTop from '../components/ButtonChuckTop';
-
-
 
 
 class Shop extends Component {
@@ -26,8 +21,6 @@ class Shop extends Component {
             buttonHover6: products[5],
             products: products[0]
         }
-    
-    
 
     changeProduct = () => {
         this.setState({ products: products[0] })
@@ -48,12 +41,6 @@ class Shop extends Component {
         this.setState({ products: products[5] })
     }
 
-// componentDidMount(){
-//     setTimeout(() => {
-//       const guy = document.querySelector('.funnyface')
-//       guy.style.background='url()'
-//     }, 5600);
-//   }
 
     render() {
 
@@ -73,7 +60,6 @@ class Shop extends Component {
                 </div>
 
                 <ImageShop article={this.state.products}/>
-
 
                 <ProductContents article={this.state.products}/>
                 <div className="funnyface"></div>

@@ -2,8 +2,7 @@ import React from 'react';
 import Movie from './Movie'
 
 const MovieList = (props) => {
-    return (
-    
+    return (    
         <div className="container">
             <div className="row">
                 <div className="col s12">
@@ -16,10 +15,8 @@ const MovieList = (props) => {
                     }
                 </div>
             </div>
-        </div>
-    
-    )
-    
+        </div>    
+    )    
 }
 
 export default MovieList;

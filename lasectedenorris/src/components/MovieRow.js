@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 
 class MovieRow extends Component {
     viewMovie(){
-        // console.log(this.props.movie.title)
         const url = "https://www.themoviedb.org/movie/" + this.props.movie.id
         window.location.href = url
     }
@@ -22,9 +21,7 @@ class MovieRow extends Component {
           </td>
         </tr>
       </tbody>
-    </table>
-      
-      
+    </table>      
     }
   }
   

@@ -5,24 +5,20 @@
 	display: inline-flex;
 	justify-content: center;
 	margin-top: -5%;
-	/* font-family: 'Bener', normal; */
-	/* font-style: italic; */
-	/* font-weight: bold; */
 	color:white;
 	font-size: 1.5vh;
 }
 
 
 .Main-nav a {
- text-transform: uppercase;
- color:rgb(78, 47, 35);
+	text-transform: uppercase;
+	color:rgb(78, 47, 35);
 }
 
 .Main-nav a {
-color:white;
- font-size: 1.70em;
- text-shadow: 4px 4px 4px black;
- /* text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; */
+	color:white;
+	font-size: 1.70em;
+	text-shadow: 4px 4px 4px black;
 }
 
 .Main-nav a:hover {
@@ -30,25 +26,25 @@ color:white;
 }
 
 .Main-nav img:hover {
- opacity: 0.5;
+	opacity: 0.5;
 }
 
 .Image-logo img:hover {
 	opacity: 0.5;
-   }
+}
 
 .Main-nav li a {
- text-decoration: none;
+	text-decoration: none;
 }
 
 .NavBarStart {
- padding-top: 1em;
- padding-bottom: 1em;
- background: url(https://images.unsplash.com/photo-1533631273148-264f2ec26448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1778&q=80);
- background-repeat: repeat;
- height: 100%;
--webkit-filter: opacity(.9) drop-shadow(2px 2px 2px black);
-filter: opacity(.9) drop-shadow(2px 2px 2px black);
+	padding-bottom: 1em;
+	background: url(https://images.unsplash.com/photo-1533631273148-264f2ec26448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1778&q=80);
+	background-repeat: repeat;
+	height: 100%;
+	-webkit-filter: opacity(.9) drop-shadow(2px 2px 2px black);
+	filter: opacity(.9) drop-shadow(2px 2px 2px black);
+	padding-top: 1em;
 }
 
 .Main-nav li {
@@ -56,9 +52,9 @@ filter: opacity(.9) drop-shadow(2px 2px 2px black);
 }
 
 .Main-nav .LiImageChuck img {
- width: 100%;
- animation: ImageChuck-spin infinite 35s linear;
- margin-top: -110px;
+	animation: ImageChuck-spin infinite 35s linear;
+	margin-top: -110px;
+	width: 70%;
 }
 
 .LiImageChuck {
@@ -75,42 +71,34 @@ li.LiImageChuck2 {
 }
 
 div.Image-logo img {
- width: 150%;
- transform: rotate(-22deg);
- padding-top: 1%;
- margin-left: 10%;
- display: inline-block;
- justify-content: flex-start;
- position: relative;
- top: 5px;
+	transform: rotate(-22deg);
+	padding-top: 1%;
+	margin-left: 10%;
+	display: inline-block;
+	justify-content: flex-start;
+	position: relative;
+	top: 5px;
+	width: 90%;
 }
 
 div.Image-logo{
- width: 10%;
- margin-bottom: 2%;
+	margin-bottom: 2%;
+	width: 10%;
 }
 
-.passeur {
-		background: url(https://media.giphy.com/media/ZwCYo2zk33gWGrdCgH/giphy.gif);
-		background-repeat: no-repeat;
-		height:70%;
-		width:50%;
-		position: absolute;
-		top: 400px;
-		left:80px;
-	}
+
 @keyframes ImageChuck-spin {
- from {
-	 transform: rotate(0deg);
- }
- to {
-	 transform: rotate(360deg);
- }
- }
- 
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
 
 /* ================================= 
- Media Queries
+Media Queries
 ==================================== */
 
 
@@ -122,38 +110,36 @@ div.Image-logo{
 
 @media screen and (max-width: 414px) {
 	.main-nav-container .Main-nav {
-	font-size: 11px;
-	flex-direction: column;
+		flex-direction: column;
+		font-size: 11px;
 }
- .LiImageChuck {
-	width: 95%;
+	.LiImageChuck {
+		width: 95%;
 }
- .Main-nav .LiImageChuck img{
-	width: 25%;
-	margin-top: 0;
-	margin-left: 4%;
-	margin-bottom: -2%
+	.Main-nav .LiImageChuck img{
+		margin-top: 0;
+		margin-left: 4%;
+		margin-bottom: -2%;
+		width: 25%;
 } 
-div.Image-logo img {
-	width: 150%;
-	margin-left: 6%;
+	div.Image-logo img {
+		width: 150%;
+		margin-left: 6%;
 }
 
-li.LiImageChuck2 {
-	margin-left: 120px;
+	li.LiImageChuck2 {
+		margin-left: 120px;
 }
 
-.LiImageChuck2 img{
-	width: 90px;
+	.LiImageChuck2 img{
+		width: 90px;
 }
-.passeur {
-	height:100%;
-	width:100%;
-	margin-top: 150px;
-	margin-left: -105px;
+	.passeur {
+		height:100%;
+		margin-top: 150px;
+		margin-left: -105px;
+		width:100%;
 }
-
-
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -162,7 +148,7 @@ li.LiImageChuck2 {
 	}
 
 	.LiImageChuck {
-  		 width: 15%;
+		width: 15%;
 	}
 
 	.Main-nav .LiImageChuck img{
@@ -174,7 +160,4 @@ li.LiImageChuck2 {
 		width: 75%;
 		margin-left: 4%;
 	}
-	
 	}
-	
-	

@@ -17,8 +17,6 @@ const ButtonChuckTop = () => {
         }
       });
 </script>
-
-
   </div>
 }
 
