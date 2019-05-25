@@ -1,0 +1,317 @@
+[
+    {
+        "id": 1,
+        "Quest": " Etes-vous prêts ?!",
+        "image": "https://purepng.com/public/uploads/large/purepng.com-chuck-norrischuck-norrischucknorriscarlos-ray-norrisamerican-martial-artistactorproducerscreenwriter-1701528022186rjflr.png",
+        "video": "",
+        "rep1" : { "id": 2, "text": "Oui"},
+        "rep2" : {"id": 3, "text": "Je m'excuse, je me suis trompé(e) d'endroit"},
+        "rep3" : {"id": 26, "text": "surprise"}
+    },
+    {
+        "id": 2,
+        "Quest":"Chuck est en face de toi et te souris, que fais-tu ?",
+        "image":"https://mediamass.net/jdd/public/documents/celebrities/662.jpg",
+        "video": "",
+        "rep1" : { "id": 27, "text": "Tu lui serres la main"},
+        "rep2" : {"id": 4, "text": "Tu le regardes de travers genre 'Wesh qu'est-ce qu'il y a toi ?'"},
+        "rep3" : {"id": 8, "text": "Un caillou se trouve à tes pieds. Tu décides de lui lancer à la gueule."}
+    },
+    {
+        "id": 3,
+        "Quest":"Chuck est en face de toi, il souhaiterait t'aider à retrouver ton chemin, que fais-tu ?",
+        "image":"https://officialpsds.com/imageview/rp/ny/rpny03_large.png?1521316486",
+        "video": "",
+        "rep1" : { "id": 9, "text": "Tu lui demandes un intégrale de Walker texas rangers, tu retrouveras ton chemin plus tard."},
+        "rep2" : {"id": 12 , "text": "Pour qui il se prend ce con ?! Tu lui proposes de boire un café dans lequel tu as mis de l'acide. "},
+        "rep3" : {"id": 13, "text": "Chuck Norris t'emmènes quelque part et tu décides de lui faire confiance."}
+    },
+    {
+        "id": 4,
+        "Quest":"Chuck n'aime pas ton regard et déracine un arbre centenaire qui était près de lui. C'est le moment de réagir que fais tu ?!",
+        "image":"https://media.giphy.com/media/K2ZWOSOLLYsAE/giphy.gif",
+        "video": "",
+        "rep1" : { "id": 28, "text": "Courir le plus vite possible"},
+        "rep2" : {"id": 5, "text": "Se mettre en PLS"},
+        "rep3" : {"id": 29, "text": "Affronte ton destin .."}
+    },
+    {
+        "id": 5,
+        "Quest":"Bien joué cette feinte fonctionne, Chuck te prodigues les premier soins de secours et veut se lier d'amitié avec toi.Il te propose d'aller boire un verre.",
+        "image":"https://media.giphy.com/media/JPsFUPp3vLS5q/giphy.gif",
+        "video": "",
+        "rep1" : { "id":6, "text": "Tu acceptes"},
+        "rep2" : {"id":25, "text": "Tu refuses"},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id": 6,
+        "Quest":"Après une soiree plus qu'arrosée dans un bar local Chuck ne tenant pas le kérosène, il s'effrondre. Une chance inouie se presente à toi",
+        "image":"https://media.giphy.com/media/sEH3lMz5hMBEc/giphy.gif",
+        "video": "",
+        "rep1" : { "id": 7, "text": "Tu lui dessines des bites sur le front"},
+        "rep2": {"id":24, "text":"Tu tentes de l'étrangler"},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id": 7,
+        "Quest":"Au réveil Chuck sait, car Chuck est quasi omniscient. Il te demande 'Qu'est-ce à dire que ceci ?!' ",
+        "image": "https://media.giphy.com/media/3oEduG3CBCkXpogB7q/giphy.gif",
+        "video": "",
+        "rep1" : { "id": 23, "text": "Tu mens et accuses le patron du bar."},
+        "rep2" : {"id": 30, "text": "Tu assumes ton geste, ça te fait bien rire et espère que Chuck ne vas pas te tuer sur le champs"},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id": 8,
+        "Quest":"Une aura maléfique s'empare de Chuck, le ciel s'assombrit et la foudre tombe. Regrettes tu d'avoir égratigné Chuck avec ton caillou ?",
+        "image":"http://image.noelshack.com/fichiers/2019/18/1/1556553106-chuckfoudre.jpg",
+        "video": "",
+        "rep1" : { "id": 31, "text": "Oui, pardon messire"},
+        "rep2" : {"id": 32, "text": "Non, pas vraiment"},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id":9 ,
+        "Quest":"Chuck n'offre pas l'intégrale comme ça il faut le meriter ! Que fais tu pour prouver que tu le merites ?",
+        "video": "",
+        "image":"https://s3.amazonaws.com/buildercloud/2d16c8dc266d1dd206d90ad45c4e4eb6.jpg",
+        "rep1" : { "id":22, "text": "Tu lui fais un lapdance de qualité"},
+        "rep2" : {"id": 10 , "text": "Tu lui montre tes katas pour l'impressionner"},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id": 10,
+        "Quest":"Chuck n'apprecie guère il voit ça comme un defi il te propose un combat il à l'air vraiment contrarié.",
+        "image":"https://media.giphy.com/media/3o6Mbm6G6X9Xl8Wp5m/giphy.gif",
+        "video": "",
+        "rep1" : { "id": 35, "text": "Tu acceptes"},
+        "rep2" : {"id":11 , "text": "Tu expliques que c'était seulement une démonstration"},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id": 11,
+        "Quest":"Ckuck ne veut rien savoir il te fout une raclée. Par chance, tu survis .Tu sors du coma au bout de plusieurs mois. Que decides-tu de faire ?",
+        "image":"https://img1.topsante.com/var/topsante/storage/images/1/3/1/7/1317190/une-femme-dans-coma-depuis-ans-accouche-hopital.jpg?v1/cover=1024x576",
+        "video": "",
+        "rep1" : { "id": 33, "text": "Tu allumes la télé pour voir ce qu'il s'est passé ces six derniers mois"},
+        "rep2" : {"id": 34, "text": "Tu appuies sur le bouton pour appeler une infirmière."},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id": 12,
+        "Quest":"Chuck se laisse entraîner jusqu'au comptoir mais il sent le traquenard arriver. Lorsqu'il hume le café, il se méfie et te dis : 'Est ce que tu me prends pour un con ?'",
+        "image":"https://cdn-images-1.medium.com/max/1600/1*M3VXC-RhYj_ad81A09PyYA.jpeg",
+        "video": "",
+        "rep1" : { "id": 19, "text": "Oui"},
+        "rep2" : {"id": 20, "text": "Oui"},
+        "rep3" : {"id":21 , "text": " J'voudrais pas paraître grossier, mais oui."}
+    },
+    {
+        "id": 13,
+        "Quest":"Vous arrivez dans une arène de combat il te propose de mettre des gants de boxe. Tu le sens pas super le plan...",
+        "image":"https://c8.alamy.com/compfr/bg8j45/ring-de-boxe-bg8j45.jpg",
+        "video": "",
+        "rep1" : { "id": 14 , "text": "Tu fuis"},
+        "rep2" : {"id": 18 , "text": "Tu mets les gants"},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id": 14,
+        "Quest":"Tu décides de t'enfuire mais il  n'y a aucune échapatoire la seule solution est de l'affronter .Par chance tu tombes sur une armurerie. Quelle arme choisis tu ?",
+        "image":"http://www.armurerie-guerin.com/Theme/GuerinTheme/assets/img/photos/armurerie_01.jpg",
+        "video": "",
+        "rep1" : { "id": 15, "text": "Une grenade"},
+        "rep2" : {"id": 16 , "text": "un desert eagles"},
+        "rep3" : {"id": 17, "text": "une banane"}
+    },
+    {
+        "id": 15,
+        "Quest":"RIP Chuck débarque dans l'armurie , tu le repousses. Vous tombez en roulé-boulé et tu remarques qu'il a dégoupillé ta grenade dans sa chute. Tu exploses seul comme un con. ",
+        "image":"https://media.giphy.com/media/GboWaubMldbtC/giphy.gif",
+        "video": "",
+        "rep1" : { "id": 0, "text": ""},
+        "rep2" : {"id": 0, "text": ""},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id": 16,
+        "Quest":"RIP tu lui tires dessus de nombreuses fois mais la peau de Chuck est dur comme du fer et rien ne le blesse. Quand il te reste une seule balle tu décides de te suicider !",
+        "image":"https://image.noelshack.com/fichiers/2019/18/4/1556792026-suicide-chuck.png",
+        "video": "",
+        "rep1" : { "id": 0, "text": ""},
+        "rep2" : {"id": 0, "text": ""},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id": 17,
+        "Quest":" WIN Tu lui offres ta banane. Chuck norris est émue aux larmes, il vient de retrouver son artefact magique, sa banane fétiche. Il s'en va sa banane dans la poche arrière sur un coucher de soleil. Saches qu'il se souviendra de toi pour toujours.",
+        "image":"https://media.giphy.com/media/VtYBsekKkX0T6/giphy.gif",
+        "video": "",
+        "rep1" : { "id": 0, "text": ""},
+        "rep2" : {"id": 0, "text": ""},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id": 18,
+        "Quest":"RIP chuck te souris mais tu n'es pas bruce lee tu meurs sous une nuée de coup.",
+        "image":"https://media.giphy.com/media/26n6MnzMOIrDGQJmo/giphy.gif",
+        "video": "",
+        "rep1" : { "id": 0, "text": ""},
+        "rep2" : {"id": 0, "text": ""},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id": 19,
+        "Quest":"RIP Il ne faut pas provoquer la colère de Chuck norris, il t'as planter son petit doigt dans la gorge, tu t'es étouffer direct avec ta propre langue.",
+        "image":"https://media.giphy.com/media/3o7TKtHyXtcXqxmEuY/giphy.gif",
+        "video": "",
+        "rep1" : { "id": 0, "text": ""},
+        "rep2" : {"id": 0, "text": ""},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id": 20,
+        "Quest":"RIP Tu as déclencher son courroux, Chuck est tout rouge colère, il te balance son café d'acide dans les yeux. Pendant que tu brules de l'interieur il rit à gorge déployée et aspire ton âme.",
+        "image":"https://media.giphy.com/media/9kYDjPMwi8kuc/giphy.gif",
+        "video": "",
+        "rep1" : { "id": 0, "text": ""},
+        "rep2" : {"id": 0, "text": ""},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id": 21,
+        "Quest":"RIP Tu n'a pas le temps de voir venir la mort, tu n'as pas souffert, tu rejoins Johnny tout là haut là haut.",
+        "image":"https://media.giphy.com/media/3oxHQn8rIF8UDzMt7a/giphy.gif",
+        "video": "",
+        "rep1" : { "id": 0, "text": ""},
+        "rep2" : {"id": 0, "text": ""},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id": 22,
+        "Quest":"RIP chuck n'a pas resister a ton sex apeal il t'as violé et tu decède suite a cette agression sauvage ",
+        "image":"https://media.giphy.com/media/3ov9jT2N67mX1RnZEA/giphy.gif",
+        "video": "",
+        "rep1" : { "id": 0, "text": ""},
+        "rep2" : {"id": 0, "text": ""},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id":23,
+        "Quest":"WIN Chuck s'en va crever les yeux du barman et pour te remercier de la délation il t'offre sa paire de santiag encore sanguinolantes. Je crois qu'on peut vraiment dire que vous êtes devenus amis.",
+        "image":"https://memegenerator.net/img/instances/44970559/well-played.jpg",
+        "video": "https://i.giphy.com/media/QVZ5sgkdvqHxeFtWLB/source.gif",
+        "rep1" : { "id": 0, "text": ""},
+        "rep2" : {"id": 0, "text": ""},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id":24,
+        "Quest":"RIP Tu as essayé de l'etrangler mais impossible. Tu finis par t'endormir d'épuisement malheureusement l'hiver vient et tu meurs d'hypothermie dans la nuit .Chuck t'as enterré avec dignité ... Depuis Chuck a annulé l'hiver.",
+        "image":"https://media.giphy.com/media/oO9x27Um8Nah2/giphy.gif",
+        "video": "",
+        "rep1" : { "id": 0, "text": ""},
+        "rep2" : {"id": 0, "text": ""},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id":25,
+        "Quest":"RIP Après que vos chemins se soient separés tu tombes nez à nez face à un ours malheureusement tu finis dans son ventre. Mais t'en fais pas chuck t'as vengé (Video chuck vs Ours)",
+        "image": "", 
+        "video": "https://www.youtube.com/embed/JGwtv9R_LsM?start=9",
+        "rep1" : { "id": 0, "text": ""},
+        "rep2" : {"id": 0, "text": ""},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id":26,
+        "Quest": "RIP ",
+        "image": "",
+        "video":"https://www.youtube-nocookie.com/embed/6lxYH5Q_zCE",
+        "rep1" : { "id": 0, "text": ""},
+        "rep2" : {"id": 0, "text": ""},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id": 27,
+        "Quest": "RIP : Sans le vouloir Chuck t'as explosé la main, le cartilage de tes doigts est remonté jusque dans ton coeur ce qui à provoqué une mort fugace mais douloureuse.",
+        "image": "https://media.giphy.com/media/vjGyYSsF765wc/giphy-downsized.gif",
+        "video": "",
+        "rep1" : { "id": 0, "text": ""},
+        "rep2" : {"id": 0, "text": ""},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id": 28,
+        "Quest": " RIP : Chuck est medaillé d'or olympique au lancer de javelot ",
+        "image": "https://slack-imgs.com/?c=1&url=http%3A%2F%2Fimage.noelshack.com%2Ffichiers-md%2F2019%2F18%2F1%2F1556553106-javelotnorris.jpg",
+        "video": "",
+        "rep1" : { "id": 0, "text": ""},
+        "rep2" : {"id": 0, "text": ""},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id":29,
+        "Quest": "RIP : C'est ton destin",
+        "image": "",
+        "video": "https://www.youtube.com/embed/1V0IE87waHU?",
+        "rep1" : { "id": 0, "text": ""},
+        "rep2" : {"id": 0, "text": ""},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id":30,
+        "Quest":"RIP Chuck n'apprecie pas que l'on fasse de l'humour sans son autorisation car Chuck est l'humour et pour répondre à ta provocation il te tue de rire.",
+        "image": "",
+        "video": "https://www.demotivateur.fr/images-buzz/6619/d.jpg",
+        "rep1" : { "id": 0, "text": ""},
+        "rep2" : {"id": 0, "text": ""},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id":31,
+        "Quest":"RIP C'est un peu tard, le sang à couler, Chuck te met une droite et ta tête se décroche de ton corps",
+        "image": "https://media.giphy.com/media/MstYaB0itQLjW/giphy.gif",
+        "video": "",
+        "rep1" : { "id": 0, "text": ""},
+        "rep2" : {"id": 0, "text": ""},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id":32,
+        "Quest":"RIP Chuck ne peut pardonner un tel affront. Tu vas brûler vif.",
+        "image":"https://media.giphy.com/media/bZHv7NWtiakmI/giphy.gif",
+        "video": "",
+        "rep1" : { "id": 0, "text": ""},
+        "rep2" : {"id": 0, "text": ""},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id":33,
+        "Quest": "RIP Chuck apparait à la tv le revoir te provoque une crise cardiaque ",
+        "image":"https://media.giphy.com/media/vjGyYSsF765wc/giphy.gif",
+        "video": "",
+        "rep1" : { "id": 0, "text": ""},
+        "rep2" : {"id": 0, "text": ""},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id":34,
+        "Quest":"RIP le boutton ne fonctionne pas : le programme qui te maintiens en vie surchauffe, il a été codé en angular la piece s'enflamme tu meurs brulé vif . PS: tu es la seule victime de cet incendie",
+        "image":"https://image.noelshack.com/fichiers/2019/18/4/1556791985-angular-vs-chuck-react.png",
+        "video": "",
+        "rep1" : { "id": 0, "text": ""},
+        "rep2" : {"id": 0, "text": ""},
+        "rep3" : {"id": 0, "text": ""}
+    },
+    {
+        "id":35,
+        "Quest":"RIP Chuck ne te laisse pas respirer il  te fais un combos  pied poing tout tes membres sont fracturés tu meurs au bout de 48h d'agonie",
+        "image": "https://media.giphy.com/media/l1J3nSSLY2oRD2Wys/giphy.gif",
+        "video": "",
+        "rep1" : { "id": 0, "text": ""},
+        "rep2" : {"id": 0, "text": ""},
+        "rep3" : {"id": 0, "text": ""}
+    }
+]

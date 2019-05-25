@@ -1,0 +1,192 @@
+.body {
+    background-color: white;
+    background-repeat: repeat;
+    background-size: contain;
+    background: url(https://images.unsplash.com/photo-1533631273148-264f2ec26448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1778&q=80);
+}
+
+section.Introduction{
+  margin-top: -42px;
+  background: url(https://westy.premiumcoding.com/wp-content/uploads/revslider/cowboy/slideshow-image-21.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 550px;
+  background-color: white;
+  padding-bottom: 6%;
+}
+
+section.VideoWalker{
+  margin-top: 4%;
+  margin-bottom: -6vh;
+}
+
+section.BannerChuck{
+  margin-bottom:-4%;
+  height: 50vh;
+  text-align:center;
+  padding-top: 5vh;
+}
+
+section.BannerGame{
+  text-align:center;
+  padding-top: 5vh;
+}
+
+section.BannerStore{
+  height: 60vh;
+  text-align:center;
+  padding-top: 5vh;
+}
+
+.videoWalker {
+    margin-bottom: 8vh;
+}
+
+.bannerChuck {
+    margin-bottom: 8vh;
+}
+
+.bannerGame {
+    margin-bottom: 12vh;
+}
+
+.bannerStore {
+    padding-bottom: 12vh;
+    background: url(https://images.unsplash.com/photo-1533631273148-264f2ec26448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1778&q=80);
+}
+
+hr {
+  border: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.bookends {
+  position: relative;
+  border-width: 5px;
+  border-color: rgb(78, 47, 35);
+  height: 11px;
+  border-style: double;
+  width: 20%;  
+}
+
+.bookends:before,
+.bookends:after {
+  position: absolute;
+  width: 7.071px;
+  height: 7.071px;
+  border-width: 0 7.071px 7.071px 0;
+  border-color: rgb(78, 47, 35);
+  border-style: double;
+}
+
+.bookends:before {
+  transform: translateZ(0) rotate(-45deg);
+  left: -21px;
+}
+
+.bookends:after {
+  transform: translateZ(0) rotate(135deg);
+  right: -21px;
+}
+
+.titlehome{
+font-family: 'Bener', normal;
+text-align: center;
+font-style: italic;
+font-weight: bold;
+font-size: 4vw;
+color:rgb(78, 47, 35);
+text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.p-home{
+    text-align: center;
+    color:white;
+    font-size: 2.5vh;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px black;
+}
+
+@media screen and (max-width: 375px) {
+  .Introduction{
+    margin-top: 10%;
+  }
+
+  .bannerGame{
+    margin-top: 140%;
+  }
+  .bannerStore{
+    margin-top: -6%;
+  }
+  .bannerChuck {
+    margin-top: 135%;
+}
+  .p-home{
+    text-align: center;
+    color:white;
+    font-size: 2vh;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px black;
+}
+  .titlehome{
+    padding-top:5%;
+    font-family: 'Bener', normal;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 8vw;
+    color:rgb(78, 47, 35);
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  }
+  .videoWalker {
+    height: 8vh;
+}
+}
+
+@media screen and (max-width: 768px) {
+  section.Introduction{
+    margin-top: -10%;
+  }
+  section.BannerGame{
+    margin-top: 90%;
+  }
+  section.BannerChuck{
+    margin-top:-75%;
+  }
+
+  section.BannerStore{
+    margin-top: -65%;
+    margin-bottom:75%;
+    background: url(https://images.unsplash.com/photo-1533631273148-264f2ec26448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1778&q=80);
+  }
+  .p-home{
+    text-align: center;
+    color:white;
+    font-size: 2vh;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px black;
+}
+  .titlehome{
+    margin-top:10%;
+    padding-top: 5%;
+    font-family: 'Bener', normal;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 8vw;
+    color:rgb(78, 47, 35);
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .bannerGame{
+    margin-top: 20%;
+  }
+  .bannerStore{
+    margin-top: 46%;
+  }
+  .bannerChuck {
+    margin-top: 61%;
+}
+}

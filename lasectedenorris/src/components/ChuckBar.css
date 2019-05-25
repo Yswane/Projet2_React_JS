@@ -1,0 +1,163 @@
+.main-nav-container {
+	text-align: center;
+}
+.main-nav-container .Main-nav {
+	display: inline-flex;
+	justify-content: center;
+	margin-top: -5%;
+	color:white;
+	font-size: 1.5vh;
+}
+
+
+.Main-nav a {
+	text-transform: uppercase;
+	color:rgb(78, 47, 35);
+}
+
+.Main-nav a {
+	color:white;
+	font-size: 1.70em;
+	text-shadow: 4px 4px 4px black;
+}
+
+.Main-nav a:hover {
+	color:rgb(158, 150, 147);
+}
+
+.Main-nav img:hover {
+	opacity: 0.5;
+}
+
+.Image-logo img:hover {
+	opacity: 0.5;
+}
+
+.Main-nav li a {
+	text-decoration: none;
+}
+
+.NavBarStart {
+	padding-bottom: 1em;
+	background: url(https://images.unsplash.com/photo-1533631273148-264f2ec26448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1778&q=80);
+	background-repeat: repeat;
+	height: 100%;
+	-webkit-filter: opacity(.9) drop-shadow(2px 2px 2px black);
+	filter: opacity(.9) drop-shadow(2px 2px 2px black);
+	padding-top: 1em;
+}
+
+.Main-nav li {
+	padding: 10px;
+}
+
+.Main-nav .LiImageChuck img {
+	animation: ImageChuck-spin infinite 35s linear;
+	margin-top: -110px;
+	width: 70%;
+}
+
+.LiImageChuck {
+	width: 20%;
+}
+
+.LiImageChuck2 img{
+	width: 400%;
+	margin-top: -225%;
+}
+
+li.LiImageChuck2 {
+	width: 5%;
+}
+
+div.Image-logo img {
+	transform: rotate(-22deg);
+	padding-top: 1%;
+	margin-left: 10%;
+	display: inline-block;
+	justify-content: flex-start;
+	position: relative;
+	top: 5px;
+	width: 90%;
+}
+
+div.Image-logo{
+	margin-bottom: 2%;
+	width: 10%;
+}
+
+
+@keyframes ImageChuck-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+
+/* ================================= 
+Media Queries
+==================================== */
+
+
+@media screen and (max-width: 768px) {
+	.passeur {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.main-nav-container .Main-nav {
+		flex-direction: column;
+		font-size: 11px;
+}
+	.LiImageChuck {
+		width: 95%;
+}
+	.Main-nav .LiImageChuck img{
+		margin-top: 0;
+		margin-left: 4%;
+		margin-bottom: -2%;
+		width: 25%;
+} 
+	div.Image-logo img {
+		width: 150%;
+		margin-left: 6%;
+}
+
+	li.LiImageChuck2 {
+		margin-left: 120px;
+}
+
+	.LiImageChuck2 img{
+		width: 90px;
+}
+	.passeur {
+		height:100%;
+		margin-top: 150px;
+		margin-left: -105px;
+		width:100%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.main-nav-container .Main-nav {
+		font-size: 11px;
+	}
+
+	.LiImageChuck {
+		width: 15%;
+	}
+
+	.Main-nav .LiImageChuck img{
+		width: 90%;
+		margin-top: -30px;
+	} 
+	
+	div.Image-logo img {
+		width: 75%;
+		margin-left: 4%;
+	}
+	}
