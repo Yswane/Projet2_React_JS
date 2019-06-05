@@ -12,7 +12,6 @@ class ChuckBar extends Component {
     }, 4500);
   }
 
-
   render() {
     return (
     <>        
