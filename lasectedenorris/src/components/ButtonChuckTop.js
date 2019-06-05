@@ -1,8 +1,6 @@
 import React from "react"
 
-
 import "./ButtonChuckTop.css"
-
 
 
 const ButtonChuckTop = () => {

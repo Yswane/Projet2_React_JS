@@ -3,7 +3,7 @@ import images from '../Images/Bulle-chuck.png';
 import './ApiQuotesChuck.css';
 
 
-
+// API Chuck Norris fact
 
 
 class ApiQuotesChuck extends Component {

@@ -4,15 +4,15 @@ import "./GameRetry.css"
 
 
 const GameRetry = (props) => {
-    return (
-        <>
-            <div className="retryMode">
-                <button className="retry" href="javascript:void" onClick={props.handleChangeRetry}>
-                Ressusciter  
+  return (
+    <>
+      <div className="retryMode">
+        <button className="retry" href="javascript:void" onClick={props.handleChangeRetry}>
+          Ressusciter
                 </button>
-            </div>
-        </>
-    )
+      </div>
+    </>
+  )
 }
 
 export default GameRetry;

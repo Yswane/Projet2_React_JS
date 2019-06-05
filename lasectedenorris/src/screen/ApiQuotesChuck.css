@@ -13,7 +13,7 @@
 .ApiFact p {
     width: 330px;
     display: flex; 
- }
+}
 
 .ImagesChuckApi {
     width: 40%;
@@ -85,7 +85,4 @@
         color: black;
         font-family: 'Times New Roman', Times, serif
     }
-
-      
-    
 }
